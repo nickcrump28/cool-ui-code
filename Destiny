@@ -1,6 +1,8 @@
--- This User Interface Library is brought to you by Destiny X Software.
+--https://raw.githubusercontent.com/Stebulous/Destiny-ui-lib/main/source.lua
+
+-- This User Interface Library is brought to you by Destiny Software.
 local Destiny = Instance.new("ScreenGui")
-Destiny.Name = "SimplyAwokens Destiny X gui"
+Destiny.Name = "dosage's Destiny gui"
 Destiny.Parent = game.CoreGui
 Destiny.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -184,7 +186,7 @@ local DestinyLib = {
 
 
 local MainUI = game:GetObjects("rbxassetid://7835727566")[1]
-print("Destiny X Loaded!")
+print("DestinyLib Loaded!")
 local function MakeDraggable(topbarobject, object) 
 	pcall(function()
 		local dragging, dragInput, mousePos, framePos = false
@@ -413,7 +415,8 @@ function DestinyLib:New(Config)
 			while wait() do
 				MusicFrame.Frame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
 				MusicFrame.Frame.TopBar.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
-				MusicFrame.Frame.TopBar.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+				MusicFrame.Frame.TopBar.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+				MusicFrame.Frame.MusicList.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
 				MusicFrame.Frame.AddBtn.BackgroundColor3 = abuttonhold and DestinyLib.Themes[DestinyLib.Settings.Theme].ButtonHold or DestinyLib.Themes[DestinyLib.Settings.Theme].Button
 				MusicFrame.Frame.Progress.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Slider
 				MusicFrame.Frame.Progress.ProgressFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].SliderInc
@@ -452,7 +455,7 @@ function DestinyLib:New(Config)
 				SFrame.TopBar.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
 				SFrame.TopBar.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
 				SFrame.TopBar.TopFrameTitle.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
-				SFrame.TabHolder.BackgroundColor3 = DestinyLib.DestinyLib[DestinyLib.Settings.Theme].TopBar
+				SFrame.TabHolder.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
 
 			end
 		end)
