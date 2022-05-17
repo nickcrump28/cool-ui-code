@@ -1,5 +1,3 @@
---https://raw.githubusercontent.com/Stebulous/Destiny-ui-lib/main/source.lua
-
 -- This User Interface Library is brought to you by Destiny Software.
 local Destiny = Instance.new("ScreenGui")
 Destiny.Name = "SimplyAwoken's Destiny gui"
@@ -129,7 +127,7 @@ local DestinyLib = {
 			Bind = Color3.fromRGB(55,40,40)
 		},
 		BetterRed = {
-			MainFrame = Color3.fromRGB(50, 35, 35),
+			MainFrame = Color3.fromRGB(0, 0, 0),
 			TopBar = Color3.fromRGB(30, 30, 30),
 			TextColor =  Color3.fromRGB(255,255,255),
 			Menu = Color3.fromRGB(255, 0, 0),
@@ -140,13 +138,13 @@ local DestinyLib = {
 			ToggleFrame = Color3.fromRGB(80,65,65),
 			ToggleToggled = Color3.fromRGB(120, 64, 64),
 			Slider = Color3.fromRGB(55,40,40),
-			SliderBar = Color3.fromRGB(255, 255, 0),
-			SliderInc = Color3.fromRGB(255, 255, 0),
-			Dropdown = Color3.fromRGB(0, 0, 0),
-			DropdownItem = Color3.fromRGB(0, 0, 0),
+			SliderBar = Color3.fromRGB(25, 25, 25),
+			SliderInc = Color3.fromRGB(60, 60, 60),
+			Dropdown = Color3.fromRGB(55,40,40),
+			DropdownItem = Color3.fromRGB(55,40,40),
 			Textbox = Color3.fromRGB(55,40,40),
 			TextboxFrame = Color3.fromRGB(50, 35, 35),
-			Colorpicker = Color3.fromRGB(255, 0, 0),
+			Colorpicker = Color3.fromRGB(55,40,40),
 			Label = Color3.fromRGB(55,40,40),
 			Bind = Color3.fromRGB(55,40,40)
 		},
