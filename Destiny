@@ -345,7 +345,7 @@ local function VPDNZTB_fake_script() -- Loader.Animation
 end
 coroutine.wrap(VPDNZTB_fake_script)()
 
-wait(1)
+wait(.3)
 
 DestinyX:Destroy()
 
