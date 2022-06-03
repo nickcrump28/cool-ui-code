@@ -1,1 +1,1667 @@
-local doe = Instance.new("\83\99\114\101\101\110\71\117\105") local ld = Instance.new("\70\114\97\109\101") local il = Instance.new("\85\73\67\111\114\110\101\114") local qi = Instance.new("\70\114\97\109\101") local il_2 = Instance.new("\85\73\67\111\114\110\101\114") local tarhjpk = Instance.new("\85\73\71\114\97\100\105\101\110\116") local scmq = Instance.new("\73\109\97\103\101\76\97\98\101\108") local nscm = Instance.new("\85\73\67\111\114\110\101\114") local e_fg = Instance.new("\84\101\120\116\76\97\98\101\108") local pkn = Instance.new("\85\73\71\114\97\100\105\101\110\116") local jpk = Instance.new("\85\73\65\115\112\101\99\116\82\97\116\105\111\67\111\110\115\116\114\97\105\110\116") local hjp = Instance.new("\85\73\84\101\120\116\83\105\122\101\67\111\110\115\116\114\97\105\110\116") local rh = Instance.new("\84\101\120\116\76\97\98\101\108") local tarhjpk_3 = Instance.new("\85\73\71\114\97\100\105\101\110\116") local t = Instance.new("\84\101\120\116\76\97\98\101\108") local gt = Instance.new("\85\73\71\114\97\100\105\101\110\116") doe.Name = "\68\101\115\116\105\110\121\88" doe.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105") doe.DisplayOrder = 1000000000 doe.ResetOnSpawn = false ld.Name = "\76\111\97\100\101\114" ld.Parent = doe ld.AnchorPoint = Vector2.new(0.5, 0.5) ld.BackgroundColor3 = Color3.fromRGB(40, 40, 40) ld.BorderColor3 = Color3.fromRGB(255, 255, 255) ld.Position = UDim2.new(0.5, 0, 0.5, 0) ld.Size = UDim2.new(0, 300, 0, 300) ld.ZIndex = 0 il.CornerRadius = UDim.new(1, 0) il.Parent = ld qi.Name = "\73\110\115\105\100\101" qi.Parent = ld qi.AnchorPoint = Vector2.new(0.5, 0.5) qi.BackgroundColor3 = Color3.fromRGB(255, 255, 255) qi.BackgroundTransparency = 1.000 qi.BorderColor3 = Color3.fromRGB(255, 255, 255) qi.Position = UDim2.new(0.5, 0, 0.5, 0) qi.Size = UDim2.new(0, 290, 0, 290) qi.ZIndex = -1 il_2.CornerRadius = UDim.new(1, 0) il_2.Parent = qi tarhjpk.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))} tarhjpk.Name = "\67\111\108\111\114" tarhjpk.Parent = qi scmq.Parent = ld scmq.BackgroundColor3 = Color3.fromRGB(255, 255, 255) scmq.BackgroundTransparency = 1.000 scmq.Position = UDim2.new(0.333333343, 0, 0.100000009, 0) scmq.Size = UDim2.new(0, 100, 0, 100) scmq.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\57\51\55\55\57\56\50\51\51\52" scmq.ImageTransparency = 1.000 nscm.CornerRadius = UDim.new(0, 150) nscm.Parent = scmq e_fg.Name = "\67\114\101\100\105\116" e_fg.Parent = ld e_fg.BackgroundColor3 = Color3.fromRGB(255, 255, 255) e_fg.BackgroundTransparency = 1.000 e_fg.BorderColor3 = Color3.fromRGB(27, 42, 53) e_fg.BorderSizePixel = 0 e_fg.Position = UDim2.new(0.463999987, 0, 0.699999988, 0) e_fg.Size = UDim2.new(0, 200, 0, 30) e_fg.Font = Enum.Font.SourceSansLight e_fg.Text = "\78\101\120\116\32\118\101\114\115\105\111\110\32\115\111\111\110\46\46\46\46" e_fg.TextColor3 = Color3.fromRGB(255, 255, 255) e_fg.TextSize = 15.000 pkn.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))} pkn.Name = "\67\111\108\111\114" pkn.Parent = e_fg jpk.Parent = e_fg hjp.Parent = e_fg rh.Name = "\84\105\116\108\101" rh.Parent = ld rh.BackgroundColor3 = Color3.fromRGB(255, 255, 255) rh.BackgroundTransparency = 1.000 rh.BorderSizePixel = 0 rh.Position = UDim2.new(0.127837896, 0, 0.465675682, 0) rh.Size = UDim2.new(0, 223, 0, 50) rh.Font = Enum.Font.SourceSansBold rh.Text = "\68\101\115\116\105\110\116\121\32\88" rh.TextColor3 = Color3.fromRGB(255, 255, 255) rh.TextScaled = true rh.TextSize = 30.000 rh.TextStrokeColor3 = Color3.fromRGB(255, 255, 255) rh.TextWrapped = true tarhjpk_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))} tarhjpk_3.Name = "\67\111\108\111\114" tarhjpk_3.Parent = rh t.Name = "\86\101\114\115\105\111\110" t.Parent = ld t.BackgroundColor3 = Color3.fromRGB(255, 255, 255) t.BackgroundTransparency = 1.000 t.BorderSizePixel = 0 t.Position = UDim2.new(0.127837896, 0, 0.630450428, 0) t.Size = UDim2.new(0, 223, 0, 30) t.Font = Enum.Font.SourceSansItalic t.Text = "\86\101\114\115\105\111\110\32\49\46\49\46\51\98" t.TextColor3 = Color3.fromRGB(255, 255, 255) t.TextScaled = true t.TextSize = 35.000 t.TextStrokeColor3 = Color3.fromRGB(255, 255, 255) t.TextWrapped = true gt.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))} gt.Name = "\67\111\108\111\114" gt.Parent = t local function NZFH_fake__fg()  local _fg = Instance.new('LocalScript', e_fg) while true do wait() _fg.Parent.TextTransparency = 1 for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency - 0.1 _fg.Parent.Text = "\87\101\108\99\111\109\101\44\32" .. game.Players.LocalPlayer.Name .. "\33" end wait(1) for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency + 0.1 end wait(0.5) for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency - 0.1 _fg.Parent.Text = "\67\114\101\97\116\101\100\32\66\121\58\32\83\105\109\112\108\121\65\119\111\107\101\110" end wait(1) for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency + 0.1 end for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency - 0.1 _fg.Parent.Text = "\83\105\114\105\117\115\32\83\116\117\100\105\111\39\115\32\80\114\111\100\117\99\116\105\111\110" end wait(0.5) for i = 1,10 do wait() _fg.Parent.TextTransparency = _fg.Parent.TextTransparency + 0.1 end wait(1) end end coroutine.wrap(NZFH_fake__fg)() local function o()  local _fg = Instance.new('LocalScript', ld) --[[ Oh yeah this is skidded --]] local e_fg    = _fg.Parent.Credit local oe_f     = _fg.Parent.ImageLabel local doe_     = _fg.Parent.Title local ldo   = _fg.Parent.Version local ild    = _fg.Parent.Inside local qil      = _fg.Parent local scmqil    = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local gtarhj      = _fg.Parent.Parent.Hue local scmqi = scmqil:Create( qil, TweenInfo.new(1), { BackgroundTransparency = 0  } ) local nscmq = scmqil:Create( qil, TweenInfo.new(1), { BackgroundTransparency = 01 } ) local kns = scmqil:Create( oe_f, TweenInfo.new(1), { ImageTransparency = 0  } ) local pkns = scmqil:Create( oe_f, TweenInfo.new(1), { BackgroundTransparency = 0  } ) local jpkn = scmqil:Create( doe_, TweenInfo.new(1), { TextTransparency = 0  } ) local hjpk = scmqil:Create( ldo, TweenInfo.new(1), { TextTransparency = 0  } ) local rhj = scmqil:Create( ild, TweenInfo.new(1), { BackgroundTransparency = 0  } ) local arh = scmqil:Create( ild, TweenInfo.new(1), { BackgroundTransparency = 1  } ) local tar = scmqil:Create( oe_f, TweenInfo.new(1), { ImageTransparency = 1  } ) local gta = scmqil:Create( oe_f, TweenInfo.new(1), { BackgroundTransparency = 1 } ) local fgt = scmqil:Create( doe_, TweenInfo.new(1), { TextTransparency = 1  } ) local _fgt = scmqil:Create( ldo, TweenInfo.new(1), { TextTransparency = 1 } ) local e_fgt = scmqil:Create( e_fg, TweenInfo.new(1), { TextTransparency = 0 } ) local oe_fg = scmqil:Create( e_fg, TweenInfo.new(1), { TextTransparency = 1  } ) local doe_f = scmqil:Create( _fg.Parent.Sound, TweenInfo.new(1), { Volume = 1  } ) local ldoe = scmqil:Create( _fg.Parent.Sound, TweenInfo.new(1), { Volume = 0 } ) _fg.Parent.Sound.Playing = true doe_f:Play() qil:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "\79\117\116"\44\32"\66\111\117\110\99\101", 1, true) task.wait(1) kns:Play() pkns:Play() jpkn:Play() hjpk:Play() e_fgt:Play() rhj:Play() scmqi:Play() local ildo = scmqil:Create( _fg.Parent, TweenInfo.new(3), { Rotation = 360 } ) ildo:Play() task.wait(1) ild:TweenSize(UDim2.new(0, 310,0, 310), "\79\117\116"\44\32"\76\105\110\101\97\114", 5 , false) task.wait(5) tar:Play() gta:Play() fgt:Play() _fgt:Play() oe_fg:Play() arh:Play() nscmq:Play() task.wait(2) ldoe:Play() task.wait(1) _fg.Parent.Sound:Destroy() _fg.Parent.Parent.Main.Visible = true _fg.Parent.Parent["\79\112\101\110\47\67\108\111\115\101"].Visible = true _fg.Parent.Parent.Main:TweenPosition(UDim2.new(0.357, 0,0.3, 0), "\79\117\116"\44\32"\81\117\105\110\116", .5, true) gtarhj.Visible = false pcall(function() if _fg.Parent.Parent:GetAttribute("\85\115\101\114") ~= _fg.Parent.Parent.Parent.Parent.Name then  _fg.Parent.Parent:Destroy() end _fg.Parent:Destroy() end) end coroutine.wrap(o)() wait(.4) doe:Destroy() local qild = Instance.new("\83\99\114\101\101\110\71\117\105") qild.Name = "\83\105\109\112\108\121\65\119\111\107\101\110\39\115\32\68\101\115\116\105\110\121\32\103\117\105" qild.Parent = game.CoreGui qild.ZIndexBehavior = Enum.ZIndexBehavior.Sibling local mqild = Instance.new("\83\99\114\101\101\110\71\117\105") mqild.Name = "\110\111\116\105\72\111\108\100\101\114" mqild.Parent = game.CoreGui mqild.ZIndexBehavior = Enum.ZIndexBehavior.Sibling local cmqil = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101") local scmqil = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101") local nscmqi = game:GetService("\82\117\110\83\101\114\118\105\99\101") local knsc = game:GetService("\80\108\97\121\101\114\115").LocalPlayer local pknsc = knsc:GetMouse() local jpkns = game:GetService("\72\116\116\112\83\101\114\118\105\99\101") local hjpkn = {Enum.UserInputType.MouseButton1, Enum.UserInputType.MouseButton2,Enum.UserInputType.MouseButton3} local rhjp = {Enum.KeyCode.Unknown,Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,Enum.KeyCode.Up,Enum.KeyCode.Left,Enum.KeyCode.Down,Enum.KeyCode.Right,Enum.KeyCode.Slash,Enum.KeyCode.Tab,Enum.KeyCode.Backspace,Enum.KeyCode.Escape} local function d(l, i) for i, v in next, l do if v == i then return true end end end local arhj = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\54\57\50\52\48\50\56\50\55\56")[1] arhj.ZIndex = 4 arhj.Parent = mqild _fg = arhj.NotifScript local tarh = loadstring(arhj.NotifScript.Source)() _fg = hjpkns local gtar = { Themes = { Default = { MainFrame = Color3.fromRGB(25, 25, 25), TopBar = Color3.fromRGB(30, 30, 30), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(37, 37, 37), TabToggled = Color3.fromRGB(43,43,43), oe_fgtarh = Color3.fromRGB(30,30,30), ButtonHold = Color3.fromRGB(31,31,31), doe_fgta = Color3.fromRGB(30,30,30), ToggleFrame = Color3.fromRGB(55,55,55), ToggleToggled = Color3.fromRGB(22, 168, 76), ldoe_f = Color3.fromRGB(30,30,30), SliderBar = Color3.fromRGB(25, 25, 25), SliderInc = Color3.fromRGB(60, 60, 60), jpknscmq = Color3.fromRGB(30,30,30), DropdownItem = Color3.fromRGB(30,30,30), ildoe_fgt = Color3.fromRGB(30,30,30), TextboxFrame = Color3.fromRGB(25, 25, 25), Colorpicker = Color3.fromRGB(30,30,30), ldoe_fg = Color3.fromRGB(30,30,30), mqildoe_f = Color3.fromRGB(30,30,30) }, Discord = { MainFrame = Color3.fromRGB(54,57,63), TopBar = Color3.fromRGB(47,49,54), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(47,49,54), TabToggled = Color3.fromRGB(54,57,63), oe_fgtarh = Color3.fromRGB(88,101,242), ButtonHold = Color3.fromRGB(71,82,196), doe_fgta = Color3.fromRGB(47,49,54), ToggleFrame = Color3.fromRGB(67,69,74), ToggleToggled = Color3.fromRGB(22, 168, 76), ldoe_f = Color3.fromRGB(47,49,54), SliderBar = Color3.fromRGB(42,44,49), SliderInc = Color3.fromRGB(62,64,69), jpknscmq = Color3.fromRGB(47,49,54), DropdownItem = Color3.fromRGB(47,49,54), ildoe_fgt = Color3.fromRGB(47,49,54), TextboxFrame = Color3.fromRGB(42,44,49), Colorpicker = Color3.fromRGB(47,49,54), ldoe_fg = Color3.fromRGB(47,49,54), mqildoe_f = Color3.fromRGB(47,49,54) }, Blue = { MainFrame = Color3.fromRGB(35, 35, 50), TopBar = Color3.fromRGB(40, 40, 55), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(47, 47, 62), TabToggled = Color3.fromRGB(53,53,68), oe_fgtarh = Color3.fromRGB(40,40,55), ButtonHold = Color3.fromRGB(41,41,56), doe_fgta = Color3.fromRGB(40,40,55), ToggleFrame = Color3.fromRGB(65,65,80), ToggleToggled = Color3.fromRGB(64, 64, 120), ldoe_f = Color3.fromRGB(40,40,55), SliderBar = Color3.fromRGB(35, 35, 50), SliderInc = Color3.fromRGB(70, 70, 85), jpknscmq = Color3.fromRGB(40,40,55), DropdownItem = Color3.fromRGB(40,40,55), ildoe_fgt = Color3.fromRGB(40,40,55), TextboxFrame = Color3.fromRGB(35, 35, 50), Colorpicker = Color3.fromRGB(40,40,55), ldoe_fg = Color3.fromRGB(40,40,55), mqildoe_f = Color3.fromRGB(40,40,55) }, Red = { MainFrame = Color3.fromRGB(25, 25, 25), TopBar = Color3.fromRGB(55, 40, 40), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(62, 47, 47), TabToggled = Color3.fromRGB(68,53,53), oe_fgtarh = Color3.fromRGB(55,40,40), ButtonHold = Color3.fromRGB(56,41,41), doe_fgta = Color3.fromRGB(55,40,40), ToggleFrame = Color3.fromRGB(80,65,65), ToggleToggled = Color3.fromRGB(120, 64, 64), ldoe_f = Color3.fromRGB(55,40,40), SliderBar = Color3.fromRGB(50, 35, 35), SliderInc = Color3.fromRGB(85, 70, 70), jpknscmq = Color3.fromRGB(55,40,40), DropdownItem = Color3.fromRGB(55,40,40), ildoe_fgt = Color3.fromRGB(55,40,40), TextboxFrame = Color3.fromRGB(50, 35, 35), Colorpicker = Color3.fromRGB(55,40,40), ldoe_fg = Color3.fromRGB(55,40,40), mqildoe_f = Color3.fromRGB(55,40,40) }, BetterRed = { MainFrame = Color3.fromRGB(0, 0, 0), TopBar = Color3.fromRGB(30, 30, 30), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(0, 0, 0), TabToggled = Color3.fromRGB(68,53,53), oe_fgtarh = Color3.fromRGB(255, 0, 0), ButtonHold = Color3.fromRGB(255, 0, 0), doe_fgta = Color3.fromRGB(255, 0, 0), ToggleFrame = Color3.fromRGB(80,65,65), ToggleToggled = Color3.fromRGB(120, 64, 64), ldoe_f = Color3.fromRGB(34, 34, 34), SliderBar = Color3.fromRGB(25, 25, 25), SliderInc = Color3.fromRGB(60, 60, 60), jpknscmq = Color3.fromRGB(170, 0, 0), DropdownItem = Color3.fromRGB(35, 35, 35), ildoe_fgt = Color3.fromRGB(45, 45, 45), TextboxFrame = Color3.fromRGB(0, 0, 0), Colorpicker = Color3.fromRGB(35, 35, 35), ldoe_fg = Color3.fromRGB(35, 35, 35), mqildoe_f = Color3.fromRGB(35, 35, 35) }, Green = { MainFrame = Color3.fromRGB(35, 50, 35), TopBar = Color3.fromRGB(40, 55, 40), TextColor =  Color3.fromRGB(255,255,255), Menu = Color3.fromRGB(47, 62, 47), TabToggled = Color3.fromRGB(53,68,53), oe_fgtarh = Color3.fromRGB(40,55,40), ButtonHold = Color3.fromRGB(41,56,41), doe_fgta = Color3.fromRGB(40,55,40), ToggleFrame = Color3.fromRGB(65,80,65), ToggleToggled = Color3.fromRGB(64, 120, 64), ldoe_f = Color3.fromRGB(40,55,40), SliderBar = Color3.fromRGB(35, 50, 35), SliderInc = Color3.fromRGB(70, 85, 70), jpknscmq = Color3.fromRGB(40,55,40), DropdownItem = Color3.fromRGB(40,55,40), ildoe_fgt = Color3.fromRGB(40,55,40), TextboxFrame = Color3.fromRGB(35, 50, 35), Colorpicker = Color3.fromRGB(40,55,40), ldoe_fg = Color3.fromRGB(40,55,40), mqildoe_f = Color3.fromRGB(40,55,40) } }, hjpknsc = { Theme = "\68\101\102\97\117\108\116", ShowFriendsOnLaunch = true, ShowMusicOnLaunch = false, CloseBind = "\82\105\103\104\116\67\111\110\116\114\111\108" }, Flags = {}, CurrentTab } local fgta = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\56\51\53\55\50\55\53\54\54")[1] print("\68\101\115\116\105\110\121\76\105\98\32\76\111\97\100\101\100\33\32\66\121\58\32\83\105\109\112\108\121\65\119\111\107\101\110\35\48\54\57\52") local function q(m, c)  pcall(function() local ildoe_fg, dragInput, mousePos, framePos = false m.InputBegan:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then ildoe_fg = true mousePos = fg.Position framePos = c.Position fg.Changed:Connect(function() if fg.UserInputState == Enum.UserInputState.End then ildoe_fg = false end end) end end) m.InputChanged:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseMovement then dragInput = fg end end) cmqil.InputChanged:Connect(function(fg) if fg == dragInput and ildoe_fg then local e_fgta = fg.Position - mousePos c.Position  = UDim2.new(framePos.X.Scale, framePos.X.Offset + e_fgta.X, framePos.Y.Scale, framePos.Y.Offset + e_fgta.Y) end end) end) end function ns(kn) spawn(function() local oe_fgt = Instance.new("\73\109\97\103\101\76\97\98\101\108") oe_fgt.Parent = kn oe_fgt.BackgroundColor3 = Color3.fromRGB(255, 255, 255) oe_fgt.BackgroundTransparency = 1.000 oe_fgt.ZIndex = 10 oe_fgt.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\50\54\54\53\52\51\50\54\56" oe_fgt.ImageColor3 = Color3.fromRGB(210,210,210) oe_fgt.ImageTransparency = 0.8 oe_fgt.Position = UDim2.new(0, pknsc.X - oe_fgt.AbsolutePosition.X, 0, pknsc.Y - oe_fgt.AbsolutePosition.Y) local doe_fg = kn.AbsoluteSize.X scmqil:Create(oe_fgt, TweenInfo.new(0.5), {Position = UDim2.fromScale(math.clamp(pknsc.X - kn.AbsolutePosition.X, 0, kn.AbsoluteSize.X)/kn.AbsoluteSize.X,kn,math.clamp(pknsc.Y - kn.AbsolutePosition.Y, 0, kn.AbsoluteSize.Y)/kn.AbsoluteSize.Y) - UDim2.fromOffset(doe_fg/2,doe_fg/2), ImageTransparency = 1, doe_fg = UDim2.fromOffset(doe_fg,Size)}):Play() spawn(function() wait(0.5) oe_fgt:Destroy() end) end) end function gtar:Notification(k, desc) tarh:New(k,desc) end     function gtar:New(Config) if not isfolder(Config.FolderToSave) then  makefolder(Config.FolderToSave) end if not isfolder(Config.FolderToSave .. "\47\99\111\110\102\105\103\115") then  makefolder(Config.FolderToSave .. "\47\99\111\110\102\105\103\115") end if not isfile(Config.FolderToSave .. "\47\115\101\116\116\105\110\103\115\46\116\120\116") then local hjpknscm = {} for i,v in pairs(gtar.Settings) do hjpknscm[i] = v end writefile(Config.FolderToSave .. "\47\115\101\116\116\105\110\103\115\46\116\120\116", tostring(jpkns:JSONEncode(hjpknscm))) end     gtar.Settings = jpkns:JSONDecode(readfile(Config.FolderToSave .. "\47\115\101\116\116\105\110\103\115\46\116\120\116")) local ildoe = false local rhjpkn = false local mqil = 0 local cmqild = true local scmqild = false local nscmqil = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\54\57\53\56\54\49\53\56\52\48")[1] local knscm = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\50\49\56\52\54\50\51\48")[1] local pknscm = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\50\49\56\56\54\51\50\54")[1] local jpknsc = fgta.MainFrame fgta.Parent = qild jpknsc.TopBar.TopFrameTitle.Text = Config.Name q(jpknsc.TopBar, fgta)  local hjpkns = _fg local rhjpk = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\51\55\49\52\49\50\50\54")[1] local arhjp = rhjpk:Clone() arhjp.Parent = jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame arhjp.Position = UDim2.new(0,0,0,5) arhjp.Text = "\77\117\115\105\99" arhjp.MouseEnter:Connect(function() scmqil:Create(arhjp,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() end) arhjp.MouseLeave:Connect(function() scmqil:Create(arhjp,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() end) local tarhj = rhjpk:Clone() tarhj.Parent = jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame tarhj.Position = UDim2.new(0,0,0,25) tarhj.Text = "\83\101\116\116\105\110\103\115" tarhj.MouseEnter:Connect(function() scmqil:Create(tarhj,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() end) tarhj.MouseLeave:Connect(function() scmqil:Create(tarhj,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() end) function pk() local gtarh = false local fgtar = false local _fgtar = game:GetService("\77\97\114\107\101\116\112\108\97\99\101\83\101\114\118\105\99\101") local e_fgtar, MusicPreset = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\57\54\51\55\51\54\50\50")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\57\54\54\49\53\50\51\52")[1] e_fgtar.Parent = qild e_fgtar.ZIndex = 5 e_fgtar.Visible = gtar.Settings.ShowMusicOnLaunch e_fgtar.Frame.Title.Text = "\78\111\116\32\80\108\97\121\105\110\103" e_fgtar.Frame.Progress.ProgressFrame.Size = UDim2.new(0,0,1,0) e_fgtar.Frame.AddBtn.AutoButtonColor = false q(e_fgtar.Frame.TopBar,e_fgtar) e_fgtar.Frame.TopBar.CloseBtn.MouseButton1Click:Connect(function() e_fgtar.Visible = false end) e_fgtar.Frame.TopBar.CloseBtn.MouseEnter:Connect(function() scmqil:Create(e_fgtar.Frame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) e_fgtar.Frame.TopBar.CloseBtn.MouseLeave:Connect(function() scmqil:Create(e_fgtar.Frame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) arhjp.MouseButton1Click:Connect(function() e_fgtar.Visible = not e_fgtar.Visible jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = false  end) local oe_fgta = Instance.new("\83\111\117\110\100") oe_fgta.Name = "\83\111\117\110\100" oe_fgta.Parent = e_fgtar oe_fgta.Volume = 3 oe_fgta:Stop() local doe_fgt = {} if not isfile(Config.FolderToSave .. "\47\109\117\115\105\99\46\116\120\116") then writefile(Config.FolderToSave .. "\47\109\117\115\105\99\46\116\120\116", tostring(jpkns:JSONEncode({}))) end doe_fgt = jpkns:JSONDecode(readfile(Config.FolderToSave .. "\47\109\117\115\105\99\46\116\120\116")) function jp() local hjpknscm = {} for i,v in pairs(doe_fgt) do hjpknscm[i] = v end writefile(Config.FolderToSave .. "\47\109\117\115\105\99\46\116\120\116", tostring(jpkns:JSONEncode(hjpknscm))) end     local function s(mqildo, k) oe_fgta:Stop() fgtar = true oe_fgta.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47" .. mqildo oe_fgta:Resume() e_fgtar.Frame.Play.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\48\50\54\54\54\51\55\49\57" e_fgtar.Frame.Title.Text = k end     local function p(j) for i,v in next, e_fgtar.Frame.MusicList.Scroll:GetChildren() do if v.Name == "\66\116\110" then v:Destroy() end     end for i,v in next, j do local ildoe_, info = pcall(_fgtar.GetProductInfo, _fgtar, v) if ildoe_ and info.AssetTypeId == 3 then local qildoe = MusicPreset:Clone() qildoe.Parent = e_fgtar.Frame.MusicList.Scroll qildoe.Title.Text = info.Name qildoe.MouseButton1Click:Connect(function() s(v, info.Name) end) qildoe.Delete.MouseButton1Click:Connect(function() for g,c in next, doe_fgt do if c == v then table.remove(doe_fgt, g) end     end     jp() qildoe:Destroy()    end) end end     end  e_fgtar.Frame.Play.MouseButton1Click:Connect(function() fgtar = not fgtar if fgtar then oe_fgta:Pause() else oe_fgta:Resume() end e_fgtar.Frame.Play.Image = fgtar and "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\48\50\54\54\54\51\54\57\57" or "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\54\48\50\54\54\54\51\55\49\57" end) e_fgtar.Frame.AddBtn.MouseButton1Click:Connect(function() local mqildo = e_fgtar.Frame.AddSong.Text if not table.find(doe_fgt, mqildo) then table.insert(doe_fgt, mqildo) jp() p(doe_fgt) end     end) e_fgtar.Frame.AddBtn.MouseEnter:Connect(function() gtarh = true end) e_fgtar.Frame.AddBtn.MouseLeave:Connect(function() gtarh = false end) p(doe_fgt) game:GetService("\82\117\110\83\101\114\118\105\99\101").RenderStepped:Connect(function() local cmqildo = math.floor(oe_fgta.TimePosition) local scmqildo = cmqildo % 60 local n = math.floor(cmqildo / 60) if string.len(scmqildo) < 2 then scmqildo = "\48" .. scmqildo end if string.len(n) < 2 then n = "\48" .. n end local knscmq = math.floor(oe_fgta.TimeLength) local pknscmq = knscmq % 60 local jpknscm = math.floor(knscmq / 60) if string.len(pknscmq) < 2 then pknscmq = "\48" .. pknscmq end if string.len(jpknscm) < 2 then jpknscm = "\48" .. jpknscm end e_fgtar.Frame.Timer1.Text = n .. "\58" .. scmqildo e_fgtar.Frame.Timer2.Text = jpknscm .. "\58" .. pknscmq e_fgtar.Frame.Progress.ProgressFrame.Size = UDim2.new(oe_fgta.TimePosition / oe_fgta.TimeLength,0,1,0) end) spawn(function() while wait() do e_fgtar.Frame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].MainFrame e_fgtar.Frame.TopBar.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TopBar e_fgtar.Frame.TopBar.CloseBtn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor e_fgtar.Frame.MusicList.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].TopBar e_fgtar.Frame.AddBtn.BackgroundColor3 = gtarh and gtar.Themes[gtar.Settings.Theme].ButtonHold or gtar.Themes[gtar.Settings.Theme].Button e_fgtar.Frame.Progress.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Slider e_fgtar.Frame.Progress.ProgressFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].SliderInc e_fgtar.Frame.AddSong.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Textbox end end) end   function hj() local hjpknsc, SettingsFrame, nscmqil, pknscm, TogglePreset, BindPreset, DropdownPreset, OptionPreset = {}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\54\55\52\57\49\53\49\54")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\55\55\53\50\52\57\49\53")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\48\51\53\57\57\52\48\57")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\48\56\54\52\51\57\56\52")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\49\57\50\55\55\57\52\56")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\52\51\53\48\53\53\50\54\57")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\52\51\53\48\51\50\52\57\54")[1] local rhjpkn = true local arhjpk = SettingsFrame.Main SettingsFrame.Parent = jpknsc arhjpk.TopBar.CloseBtn.MouseEnter:Connect(function() scmqil:Create(arhjpk.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) arhjpk.TopBar.CloseBtn.MouseLeave:Connect(function() scmqil:Create(arhjpk.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) tarhj.MouseButton1Click:Connect(function() SettingsFrame.Visible = not SettingsFrame.Visible jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = false  end) arhjpk.TopBar.CloseBtn.MouseButton1Click:Connect(function() SettingsFrame.Visible = false end) function r() local hjpknscm = {} for i,v in pairs(gtar.Settings) do hjpknscm[i] = v end writefile(Config.FolderToSave .. "\47\115\101\116\116\105\110\103\115\46\116\120\116", tostring(jpkns:JSONEncode(hjpknscm))) end     spawn(function() while wait() do arhjpk.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].MainFrame arhjpk.TopBar.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TopBar arhjpk.TopBar.CloseBtn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor arhjpk.TopBar.TopFrameTitle.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor arhjpk.TabHolder.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].TopBar end end) function hjpknsc:arhjpkn(text) local arhjpkn = nscmqil:Clone() local tarhjp = pknscm:Clone() arhjpkn.Parent = arhjpk.TabHolder arhjpkn.Text = text arhjpkn.Size = UDim2.new(0,arhjpkn.TextBounds.X,1,0) tarhjp.Parent = arhjpk.ContainerFolder tarhjp.Visible = false if rhjpkn then arhjpkn.TextTransparency = 0 tarhjp.Visible = true rhjpkn = false end     arhjpkn.MouseButton1Click:Connect(function() for i,v in next, arhjpk.TabHolder:GetChildren() do if v.Name == "\84\97\98" then v.TextTransparency = 0.4 end     end       for i,v in next, arhjpk.ContainerFolder:GetChildren() do if v.Name == "\67\111\110\116\97\105\110\101\114" then v.Visible = false end     end       arhjpkn.TextTransparency = 0       tarhjp.Visible = true end) local _fgtarh = {} function _fgtarh:ToggleSetting(k, desc, def, path) local mqildoe = gtar.Settings[path] or def local doe_fgta = TogglePreset:Clone() doe_fgta.Parent = tarhjp doe_fgta.Title.Text = k doe_fgta.Desc.Text = desc local function h(ta) scmqil:Create(doe_fgta.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency= ta and 0 or 1}):Play() scmqil:Create(doe_fgta.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg= ta and UDim2.new(1,-2,1,-2) or UDim2.new(1,-6,1,-6)}):Play() end     local function ar(ta) h(ta) gtar.Settings[path] = ta mqildoe = ta r() end     h(mqildoe) doe_fgta.MouseButton1Click:Connect(function() ar(not mqildoe)      end) spawn(function() while wait() do doe_fgta.ToggleFrame.ToggleToggled.BackgroundColor3 = mqildoe and gtar.Themes[gtar.Settings.Theme].ToggleToggled or gtar.Themes[gtar.Settings.Theme].MainFrame doe_fgta.ToggleFrame.BackgroundColor3 = mqildoe and gtar.Themes[gtar.Settings.Theme].ToggleToggled or gtar.Themes[gtar.Settings.Theme].ToggleFrame doe_fgta.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) end function _fgtarh:BindSetting(k, desc, def, path) local mqildoe = gtar.Settings[path] or def local mqildoe_f = BindPreset:Clone() mqildoe_f.Parent = tarhjp mqildoe_f.Title.Text = k mqildoe_f.Desc.Text = desc function ar(ta) ildoe = false mqildoe = ta or mqildoe mqildoe = mqildoe.Name or mqildoe mqildoe_f.BText.Text = mqildoe gtar.Settings[path] = mqildoe r() end     ar(mqildoe) mqildoe_f.InputEnded:Connect(function(oe_) if oe_.UserInputType == Enum.UserInputType.MouseButton1 then if ildoe then return end ildoe = true mqildoe_f.BText.Text = "\46\46\46" end end) cmqil.InputBegan:Connect(function(oe_) if cmqil:GetFocusedTextBox() then return end if ildoe then local cmq pcall(function() if not d(rhjp, oe_.KeyCode) then cmq = oe_.KeyCode end end) pcall(function() if d(hjpkn, oe_.UserInputType) and not cmq then cmq = oe_.UserInputType end end) cmq = cmq or mqildoe ar(cmq) end end) spawn(function() while wait() do mqildoe_f.Desc.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor mqildoe_f.BText.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor mqildoe_f.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) end     function _fgtarh:jpknscmq(k, desc, j, def, path) local qildo = false local mqildoe = gtar.Settings[path] or def local jpknscmq = DropdownPreset:Clone() jpknscmq.Parent = tarhjp jpknscmq.Title.Text = k jpknscmq.Desc.Text = desc jpknscmq.Main.Current.Text = mqildoe function doe_fgta() jpknscmq.Main.Holder.Visible = qildo jpknscmq.Main.Holder.Size = qildo and UDim2.new(1,0,0,jpknscmq.Main.Holder.UIListLayout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0) if qildo then if (jpknscmq.Main.Holder.UIListLayout.AbsoluteContentSize.Y + tarhjp.UIListLayout.AbsoluteContentSize.Y) > 190 then tarhjp.CanvasSize = UDim2.new(0,0,0,jpknscmq.Main.Holder.UIListLayout.AbsoluteContentSize.Y + tarhjp.UIListLayout.AbsoluteContentSize.Y) end     else tarhjp.CanvasSize = UDim2.new(0,0,0,tarhjp.UIListLayout.AbsoluteContentSize.Y)  end scmqil:Create(jpknscmq.Main.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = qildo and 180 or 0}):Play() end    jpknscmq.InputEnded:Connect(function(oe_) if oe_.UserInputType == Enum.UserInputType.MouseButton1 then qildo = not qildo doe_fgta() end end) local function cm(sc) for _,option in pairs(sc) do local hjpknscmq = OptionPreset:Clone() hjpknscmq.Parent = jpknscmq.Main.Holder hjpknscmq.Text = option hjpknscmq.MouseButton1Click:Connect(function() mqildoe = option gtar.Settings[path] = mqildoe jpknscmq.Main.Current.Text = mqildoe r() end) spawn(function() while wait() do hjpknscmq.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor        end end) end    end     spawn(function() while wait() do jpknscmq.Main.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TopBar jpknscmq.Main.Holder.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TopBar end end) cm(j) end return _fgtarh end    local nscmqild = hjpknsc:arhjpkn("\71\101\110\101\114\97\108") nscmqild:ToggleSetting("\83\104\111\119\32\77\117\115\105\99\32\79\110\32\76\97\117\110\99\104", "\83\104\111\119\115\32\116\104\101\32\109\117\115\105\99\32\109\101\110\117\32\119\104\101\110\32\121\111\117\32\108\111\97\100\32\68\101\115\116\105\110\121\32\88", true, "\83\104\111\119\77\117\115\105\99\79\110\76\97\117\110\99\104") nscmqild:BindSetting("\67\108\111\115\101\32\66\105\110\100", "\72\105\100\101\115\47\83\104\111\119\115\32\116\104\101\32\109\97\105\110\32\119\105\110\100\111\119\32\119\104\101\110\32\112\114\101\115\115\101\100\46", Enum.KeyCode.RightControl, "\67\108\111\115\101\66\105\110\100") local knscmqi = hjpknsc:arhjpkn("\65\112\112\101\97\114\97\110\99\101") knscmqi:jpknscmq("\84\104\101\109\101", "\84\104\101\32\108\111\111\107\32\111\102\32\116\104\101\32\117\115\101\114\32\105\110\116\101\114\102\97\99\101", {"\68\101\102\97\117\108\116", "\68\105\115\99\111\114\100", "\82\101\100", "\71\114\101\101\110", "\66\108\117\101", "\66\101\116\116\101\114\82\101\100"}, "\68\101\102\97\117\108\116", "\84\104\101\109\101") end  pk() hj() local function _() scmqil:Create(jpknsc.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(0,0,0,0)}):Play()  end    local function e_() scmqil:Create(jpknsc.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(-0.37, -8, 0, 0)}):Play()  end  jpknsc.TopBar.TabListBtn.MouseButton1Click:Connect(function() _() end) jpknsc.TabMenu.Menu.Top.MenuCloseBtn.MouseButton1Click:Connect(function() e_() end) jpknsc.TopBar.ButtonHolder.SearchBtn.MouseButton1Click:Connect(function() jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.Visible = not jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.Visible jpknsc.TopBar.TopFrameTitle.Visible = not jpknsc.TopBar.TopFrameTitle.Visible end) jpknsc.TopBar.ButtonHolder.CloseBtn.MouseEnter:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) jpknsc.TopBar.ButtonHolder.CloseBtn.MouseLeave:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) jpknsc.TopBar.ButtonHolder.SearchBtn.MouseEnter:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.SearchBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) jpknsc.TopBar.ButtonHolder.SearchBtn.MouseLeave:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.SearchBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) jpknsc.TopBar.ButtonHolder.MenuBtn.MouseEnter:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.MenuBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) jpknsc.TopBar.ButtonHolder.MenuBtn.MouseLeave:Connect(function() scmqil:Create(jpknsc.TopBar.ButtonHolder.MenuBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) jpknsc.TopBar.TabListBtn.MouseEnter:Connect(function() scmqil:Create(jpknsc.TopBar.TabListBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end) jpknsc.TopBar.TabListBtn.MouseLeave:Connect(function() scmqil:Create(jpknsc.TopBar.TabListBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end) jpknsc.TopBar.ButtonHolder.MenuBtn.MouseButton1Click:Connect(function() jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = not jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible end) jpknsc.TopBar.ButtonHolder.CloseBtn.MouseButton1Click:Connect(function() cmqild = not cmqild fgta.Visible = cmqild end) function f() function _f() local pknscmqi = {} for i,v in next, gtar.CurrentTab:GetDescendants() do if string.find(v.Name, "\101\108\101\109\101\110\116") then table.insert(pknscmqi, v)         end end    return pknscmqi end     jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox:GetPropertyChangedSignal("\84\101\120\116"):Connect(function() for i,v in pairs(_f()) do if string.len(jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.Text) >= 1 then if string.find(string.sub(v.Name:lower(),0,-8), jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.Text:lower()) then v.Visible = true else v.Visible = false end  else v.Visible = true                  end end       end) end     f() cmqil.InputBegan:Connect(function(oe_) if (oe_.KeyCode.Name == gtar.Settings.CloseBind or oe_.UserInputType.Name == gtar.Settings.CloseBind) and not ildoe then cmqild = not cmqild fgta.Visible = cmqild end end) spawn(function() while wait() do jpknsc.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].MainFrame jpknsc.TopBar.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TopBar jpknsc.TopBar.ButtonHolder.CloseBtn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.ButtonHolder.MenuBtn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.ButtonHolder.SearchBtn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.TabListBtn.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.TopFrameTitle.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TabMenu.Menu.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Menu jpknsc.TabMenu.Menu.Top.MenuCloseBtn.ImageLabel.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].MainFrame jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.ButtonHolder.SearchBtn.TextBox.PlaceholderColor3 = gtar.Themes[gtar.Settings.Theme].TextColor jpknsc.TopBar.ButtonHolder.MenuBtn.MenuFrame.Frame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].TopBar end end) function gtar:LoadCfg(cfg) local hjpknscm = jpkns:JSONDecode(cfg) table.foreach(hjpknscm, function(nscmqildo,nsc) if gtar.Flags[nscmqildo] then spawn(function() gtar.Flags[nscmqildo]:Set(nsc) end) else warn("\99\102\103\32\108\111\97\100\101\114\32\45\32\99\111\117\108\100\32\110\111\116\32\102\105\110\100", nscmqildo ,nsc ) end end) end function gtar:SaveCfg(name) local hjpknscm = {} for i,v in pairs(gtar.Flags) do hjpknscm[i] = v.Value end writefile(Config.FolderToSave .. "\47\99\111\110\102\105\103\115\47" .. name .. "\46\116\120\116", tostring(jpkns:JSONEncode(hjpknscm))) end local rhjpkns = {} function rhjpkns:arhjpkn(text) local arhjpkn = nscmqil:Clone() arhjpkn.AutoButtonColor = false arhjpkn.Parent = jpknsc.TabMenu.Menu.Holder arhjpkn.Text =  text arhjpkn.TextSize = 14 local tarhjp =  pknscm:Clone() tarhjp.Parent = jpknsc.ContainerFolder tarhjp.Visible = false if rhjpkn == false then rhjpkn = true tarhjp.Visible = true arhjpkn.UIPadding.PaddingLeft = UDim.new(0,10) arhjpkn.TextTransparency = 0 arhjpkn.BackgroundTransparency = 0   gtar.CurrentTab = tarhjp   end     spawn(function() while wait() do arhjpkn.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor arhjpkn.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].TabToggled tarhjp.CanvasSize = UDim2.new(0,0,0,tarhjp.UIListLayout.AbsoluteContentSize.Y + 26) end end) arhjpkn.MouseButton1Click:Connect(function() for i,v in next, jpknsc.TabMenu.Menu.Holder:GetChildren() do if v:IsA("\84\101\120\116\66\117\116\116\111\110") then scmqil:Create(v,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play()  scmqil:Create(v,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play()  scmqil:Create(v.UIPadding,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{PaddingLeft = UDim.new(0,5)}):Play()  end     scmqil:Create(arhjpkn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play()  scmqil:Create(arhjpkn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play()  scmqil:Create(arhjpkn.UIPadding,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{PaddingLeft = UDim.new(0,10)}):Play()  end    for i,v in next, jpknsc.ContainerFolder:GetChildren() do if v.Name == "\67\111\110\116\97\105\110\101\114" then v.Visible = false end     tarhjp.Visible = true end tabtoggledname = arhjpkn.Name e_() end) local g = {} function g:fgtarh(text) local fgtarh = knscm:Clone() fgtarh.Parent = tarhjp fgtarh.SectionTitle.Text = text spawn(function() while wait() do fgtarh.SectionTitle.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor fgtarh.Size = UDim2.new(0.9,0,0,fgtarh.UIListLayout.AbsoluteContentSize.Y) end end) local _fgtarhj = {} function _fgtarhj:oe_fgtarh(text,callback) local e_fgtarh = false local oe_fgtarh = game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\54\57\51\55\49\52\50\51\51\56")[1] oe_fgtarh.Parent = fgtarh oe_fgtarh.Name = text .. "\101\108\101\109\101\110\116" oe_fgtarh.ButtonText.Text = text oe_fgtarh.ClipsDescendants = true oe_fgtarh.MouseButton1Click:Connect(function() callback() ns(oe_fgtarh) end) oe_fgtarh.MouseEnter:Connect(function() e_fgtarh = true end) oe_fgtarh.MouseLeave:Connect(function() e_fgtarh = false end) spawn(function() while wait() do oe_fgtarh.BackgroundColor3 = e_fgtarh and gtar.Themes[gtar.Settings.Theme].ButtonHold or gtar.Themes[gtar.Settings.Theme].Button oe_fgtarh.ButtonText.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) end     function _fgtarhj:doe_fgta(text,def,flag,callback) local doe_fgta,ToggleMain = {Value = false}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\54\57\54\51\49\53\53\52\57\56")[1] ToggleMain.Parent = fgtarh ToggleMain.ToggleText.Text = text ToggleMain.Name = text .. "\101\108\101\109\101\110\116" function doe_fgta:Set(mqildoe) doe_fgta.Value = mqildoe scmqil:Create(ToggleMain.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency= doe_fgta.Value and 0 or 1}):Play() scmqil:Create(ToggleMain.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg= doe_fgta.Value and UDim2.new(1,-2,1,-2) or UDim2.new(1,-6,1,-6)}):Play() return callback(doe_fgta.Value) end ToggleMain.MouseButton1Click:Connect(function() doe_fgta.Value = not doe_fgta.Value doe_fgta:Set(doe_fgta.Value)            end) spawn(function() while wait() do ToggleMain.ToggleFrame.ToggleToggled.BackgroundColor3 = doe_fgta.Value and gtar.Themes[gtar.Settings.Theme].ToggleToggled or gtar.Themes[gtar.Settings.Theme].Toggle ToggleMain.ToggleFrame.BackgroundColor3 = doe_fgta.Value and gtar.Themes[gtar.Settings.Theme].ToggleToggled or gtar.Themes[gtar.Settings.Theme].ToggleFrame ToggleMain.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Toggle ToggleMain.ToggleText.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) doe_fgta:Set(def) gtar.Flags[flag] = doe_fgta return doe_fgta end     function _fgtarhj:ldoe_f(text,min,max,start,inc,flag,callback) local ldoe_f,SliderMain = {Value = start}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\54\57\54\55\53\55\51\55\50\55")[1] SliderMain.Parent = fgtarh SliderMain.SliderText.Text = text SliderMain.Name = text .. "\101\108\101\109\101\110\116" local ildoe_fg = false local function oe(oe_) local qildoe_ = math.clamp((oe_.Position.X - SliderMain.SliderFrame.AbsolutePosition.X) / SliderMain.SliderFrame.AbsoluteSize.X, 0, 1) local mqildoe_ = inc and (max / ((max - min) / (inc * 4))) or (max >= 50 and max / ((max - min) / 4)) or (max >= 25 and max / ((max - min) / 2)) or (max / (max - min)) local cmqildoe_ = UDim2.new((math.round(qildoe_ * ((max / mqildoe_) * 4)) / ((max / mqildoe_) * 4)), 0, 1, 0)  scmqil:Create(SliderMain.SliderFrame.SliderCurrentFrame,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg = cmqildoe_}):Play()  local scmqildoe_ = math.round((((cmqildoe_.X.Scale * max) / max) * (max - min) + min) * 20) / 20 SliderMain.SliderVal.Text = tostring(scmqildoe_) ldoe_f.Value = scmqildoe_ callback(ldoe_f.Value) end SliderMain.SliderFrame.InputBegan:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then ildoe_fg = true end end) SliderMain.SliderFrame.InputEnded:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then ildoe_fg = false end end) game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101").InputChanged:Connect(function(fg) if ildoe_fg and fg.UserInputType == Enum.UserInputType.MouseMovement then oe(fg) end end) function ldoe_f:Set(ta) local nscmqildo = tostring(ta and (ta / max) * (max - min) + min) or 0 SliderMain.SliderVal.Text = tostring(nscmqildo) SliderMain.SliderFrame.SliderCurrentFrame.Size = UDim2.new((ta or 0) / max, 0, 1, 0) ldoe_f.Value = ta return callback(ldoe_f.Value) end  spawn(function() while wait() do SliderMain.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Slider SliderMain.SliderFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].SliderBar SliderMain.SliderFrame.SliderCurrentFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].SliderInc SliderMain.SliderText.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor SliderMain.SliderVal.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) ldoe_f:Set(start) gtar.Flags[flag] = ldoe_f return ldoe_f end     function _fgtarhj:jpknscmq(text,j,def,flag,callback) local jpknscmq,DropMain,OptionPreset = {Value = nil, Toggled = false, Options = j}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\50\55\57\54\52\51\53\57")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\50\49\52\51\50\51\50\54")[1] DropMain.Parent = fgtarh DropMain.Btn.Title.Text = text DropMain.Name = text .. "\101\108\101\109\101\110\116" local function mq() jpknscmq.Toggled = not jpknscmq.Toggled DropMain.Holder.Size = jpknscmq.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0) scmqil:Create(DropMain,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg = jpknscmq.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)}):Play()  scmqil:Create(DropMain.Btn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = jpknscmq.Toggled and 180 or 0}):Play()  DropMain.Holder.Visible = jpknscmq.Toggled end   local function cm(sc) for _,option in pairs(sc) do local hjpknscmq = OptionPreset:Clone() hjpknscmq.Parent = DropMain.Holder hjpknscmq.ItemText.Text = option hjpknscmq.ClipsDescendants = true hjpknscmq.MouseButton1Click:Connect(function() jpknscmq.Value = option DropMain.Btn.Title.Text = text .. "\32\45\32" .. option ns(hjpknscmq) return callback(jpknscmq.Value) end) spawn(function() while wait() do hjpknscmq.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].DropdownItem DropMain.Btn.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) end    end     function jpknscmq:Refresh(sc,del) if del then for _,v in pairs(DropMain.Holder:GetChildren()) do if v:IsA"\84\101\120\116\66\117\116\116\111\110" then v:Destroy() DropMain.Holder.Size = jpknscmq.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0) DropMain.Size = jpknscmq.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32) end end     end     cm(sc) end     DropMain.Btn.MouseButton1Click:Connect(function() mq() end) function jpknscmq:Set(ta) jpknscmq.Value = ta DropMain.Btn.Title.Text = text .. "\32\45\32" .. ta return callback(jpknscmq.Value) end spawn(function() while wait() do DropMain.Btn.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Dropdown DropMain.Btn.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor DropMain.Btn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) jpknscmq:Refresh(j,false) jpknscmq:Set(def) gtar.Flags[flag] = jpknscmq return jpknscmq end    function _fgtarhj:MultiDropdown(text,j,def,flag,callback) local jpknscmq,DropMain,OptionPreset = {Value = {}, Toggled = false, Options = j}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\50\55\57\54\52\51\53\57")[1], game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\50\49\52\51\50\51\50\54")[1] DropMain.Parent = fgtarh DropMain.Btn.Title.Text = text DropMain.Name = text .. "\101\108\101\109\101\110\116" local function mq() jpknscmq.Toggled = not jpknscmq.Toggled DropMain.Holder.Size = jpknscmq.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0) scmqil:Create(DropMain,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg = jpknscmq.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)}):Play()  scmqil:Create(DropMain.Btn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = jpknscmq.Toggled and 180 or 0}):Play()  DropMain.Holder.Visible = jpknscmq.Toggled end   local function cm(sc) for _,option in pairs(sc) do local hjpknscmq = OptionPreset:Clone() hjpknscmq.Parent = DropMain.Holder hjpknscmq.ItemText.Text = option hjpknscmq.ClipsDescendants = true hjpknscmq.MouseButton1Click:Connect(function() if table.find(jpknscmq.Value, option) then     table.remove(jpknscmq.Value, table.find(jpknscmq.Value, option)) DropMain.Btn.Title.Text = text .. "\32\45\32" .. table.concat(jpknscmq.Value, ", ") callback(jpknscmq.Value) else table.insert(jpknscmq.Value, option) DropMain.Btn.Title.Text = text .. "\32\45\32" .. table.concat(jpknscmq.Value, ", ") callback(jpknscmq.Value) end ns(hjpknscmq) end) spawn(function() while wait() do hjpknscmq.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].DropdownItem DropMain.Btn.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) end    end     function jpknscmq:Refresh(sc,del) if del then for _,v in pairs(DropMain.Holder:GetChildren()) do if v:IsA"\84\101\120\116\66\117\116\116\111\110" then v:Destroy() DropMain.Holder.Size = jpknscmq.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0) DropMain.Size = jpknscmq.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32) end end     end     cm(sc) end     DropMain.Btn.MouseButton1Click:Connect(function() mq() end) function jpknscmq:Set(ta) jpknscmq.Value = ta DropMain.Btn.Title.Text = text .. "\32\45\32" .. table.concat(jpknscmq.Value, ", ") return callback(jpknscmq.Value) end spawn(function() while wait() do DropMain.Btn.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Dropdown DropMain.Btn.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor DropMain.Btn.Ico.ImageColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) jpknscmq:Refresh(j,false) jpknscmq:Set(def) gtar.Flags[flag] = jpknscmq return jpknscmq end     function _fgtarhj:Colorpicker(text,preset,flag,callback) local rhjpknsc, ColorS, ColorV = 1, 1, 1 local arhjpkns, ColorPreset, DragPreset = {Value = preset, Toggled = false}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\51\50\57\57\57\56\48\49\52")[1] ColorPreset.Hue.Visible, ColorPreset.Color.Visible = arhjpkns.Toggled, arhjpkns.Toggled ColorPreset.Parent = fgtarh ColorPreset.Btn.Colorpicker.Text = text ColorPreset.Name = text .. "\101\108\101\109\101\110\116" ColorPreset.Btn.Box.BackgroundColor3 = preset ColorPreset.Hue.HueGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))} local tarhjpk = ColorPreset.Color local gtarhj = ColorPreset.Hue local fgtarhj = ColorPreset.Hue.HueSelection local _fgta = ColorPreset.Color.ColorSelection function e_f() ColorPreset.Btn.Box.BackgroundColor3 = Color3.fromHSV(rhjpknsc, ColorS, ColorV) tarhjpk.BackgroundColor3 = Color3.fromHSV(rhjpknsc, 1, 1) pcall(callback, ColorPreset.Btn.Box.BackgroundColor3) end ColorPreset.Btn.MouseButton1Click:Connect(function() arhjpkns.Toggled = not arhjpkns.Toggled scmqil:Create(ColorPreset,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{doe_fg = arhjpkns.Toggled and UDim2.new(1,0,0,120) or UDim2.new(1,0,0,32)}):Play()  ColorPreset.Hue.Visible, ColorPreset.Color.Visible = arhjpkns.Toggled, arhjpkns.Toggled end) rhjpknsc = 1 - (math.clamp(fgtarhj.AbsolutePosition.Y - gtarhj.AbsolutePosition.Y, 0, gtarhj.AbsoluteSize.Y) / gtarhj.AbsoluteSize.Y) ColorS = (math.clamp(_fgta.AbsolutePosition.X - tarhjpk.AbsolutePosition.X, 0, tarhjpk.AbsoluteSize.X) / tarhjpk.AbsoluteSize.X) ColorV = 1 - (math.clamp(_fgta.AbsolutePosition.Y - tarhjpk.AbsolutePosition.Y, 0, tarhjpk.AbsoluteSize.Y) / tarhjpk.AbsoluteSize.Y) ColorPreset.Btn.Box.BackgroundColor3 = preset tarhjpk.BackgroundColor3 = preset pcall(callback, ColorPreset.Btn.Box.BackgroundColor3) tarhjpk.InputBegan:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then if ColorInput then ColorInput:Disconnect() end ColorInput = nscmqi.RenderStepped:Connect(function() local e_fgtarhj = (math.clamp(pknsc.X - tarhjpk.AbsolutePosition.X, 0, tarhjpk.AbsoluteSize.X) / tarhjpk.AbsoluteSize.X) local oe_fgtar = (math.clamp(pknsc.Y - tarhjpk.AbsolutePosition.Y, 0, tarhjpk.AbsoluteSize.Y) / tarhjpk.AbsoluteSize.Y) _fgta.Position = UDim2.new(e_fgtarhj, 0, oe_fgtar, 0) ColorS = e_fgtarhj ColorV = 1 - oe_fgtar e_f() end) end end) tarhjpk.InputEnded:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then if ColorInput then ColorInput:Disconnect() end end end) gtarhj.InputBegan:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then if HueInput then HueInput:Disconnect() end HueInput = nscmqi.RenderStepped:Connect(function() local doe_fgtar = (math.clamp(pknsc.Y - gtarhj.AbsolutePosition.Y, 0, gtarhj.AbsoluteSize.Y) / gtarhj.AbsoluteSize.Y) fgtarhj.Position = UDim2.new(0.48, 0, doe_fgtar, 0) rhjpknsc = 1 - doe_fgtar e_f(true) end) end end) gtarhj.InputEnded:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then if HueInput then HueInput:Disconnect() end end end) spawn(function() while wait() do ColorPreset.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Colorpicker ColorPreset.Btn.Colorpicker.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) return arhjpkns end function _fgtarhj:ldoe_fg(text) local ldoe_fg, LabelFrame = {}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\48\51\50\53\53\50\51\50\50")[1] LabelFrame.Parent = fgtarh LabelFrame.Title.Text = text LabelFrame.Name = text .. "\101\108\101\109\101\110\116" function ldoe_fg:Set(tochange) LabelFrame.Title.Text = tochange LabelFrame.Name = text .. "\101\108\101\109\101\110\116" end     spawn(function() while wait() do LabelFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Label LabelFrame.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) return ldoe_fg end function _fgtarhj:ildoe_fgt(text,disappear,callback) local ildoe_fgt, TextboxFrame = {}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\52\55\50\57\50\51\57\50")[1] TextboxFrame.Parent = fgtarh TextboxFrame.Title.Text = text TextboxFrame.Name = text .. "\101\108\101\109\101\110\116" TextboxFrame.Box.Changed:Connect(function() TextboxFrame.Box.Size = UDim2.new(0,TextboxFrame.Box.TextBounds.X + 16,0,22) end) TextboxFrame.Box.PlaceholderText = "\32\32\32\32\32\32\32\32\32\32\32\32\32\32\32\32\32\32" TextboxFrame.InputBegan:Connect(function(fg) if fg.UserInputType == Enum.UserInputType.MouseButton1 then TextboxFrame.Box:CaptureFocus() end end) TextboxFrame.Box.FocusLost:Connect(function() local qildoe_f = TextboxFrame.Box.Text if disappear then TextboxFrame.Box.Text = "" end   return callback(qildoe_f) end) cmqil.InputBegan:Connect(function(fg) if fg.KeyCode == Enum.KeyCode.Escape and TextboxFrame.Box:IsFocused() then TextboxFrame.Box:ReleaseFocus() end end) spawn(function() while wait() do TextboxFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Textbox TextboxFrame.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor TextboxFrame.Box.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].TextboxFrame TextboxFrame.Box.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) return ildoe_fgt end     function _fgtarhj:mqildoe_f(text,preset,holdmode,flag,callback) local mqildoe_f, BindFrame = {Value, Binding = false, e_fgtarh = false}, game:GetObjects("\114\98\120\97\115\115\101\116\105\100\58\47\47\55\49\50\54\56\55\52\55\52\52")[1] BindFrame.Parent = fgtarh BindFrame.Title.Text = text BindFrame.Name = text .. "\101\108\101\109\101\110\116" BindFrame.InputEnded:Connect(function(oe_) if oe_.UserInputType == Enum.UserInputType.MouseButton1 then if mqildoe_f.Binding then return end mqildoe_f.Binding = true BindFrame.BText.Text = "\46\46\46" end end) cmqil.InputBegan:Connect(function(oe_) if cmqil:GetFocusedTextBox() then return end if (oe_.KeyCode.Name == mqildoe_f.Value or oe_.UserInputType.Name == mqildoe_f.Value) and not mqildoe_f.Binding then if holdmode then e_fgtarh = true callback(e_fgtarh) else callback() end elseif mqildoe_f.Binding then local cmq pcall(function() if not d(rhjp, oe_.KeyCode) then cmq = oe_.KeyCode end end) pcall(function() if d(hjpkn, oe_.UserInputType) and not cmq then cmq = oe_.UserInputType end end) cmq = cmq or mqildoe_f.Value mqildoe_f:Set(cmq) end end) cmqil.InputEnded:Connect(function(oe_) if oe_.KeyCode.Name == mqildoe_f.Value or oe_.UserInputType.Name == mqildoe_f.Value then if holdmode and e_fgtarh then e_fgtarh = false callback(e_fgtarh) end end end) function mqildoe_f:Set(i) self.Binding = false self.Value = i or self.Value self.Value = self.Value.Name or self.Value BindFrame.BText.Text = self.Value end spawn(function() while wait() do BindFrame.BackgroundColor3 = gtar.Themes[gtar.Settings.Theme].Bind BindFrame.Title.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor BindFrame.BText.TextColor3 = gtar.Themes[gtar.Settings.Theme].TextColor end end) mqildoe_f:Set(preset) gtar.Flags[flag] = mqildoe_f return mqildoe_f end     return _fgtarhj end     return g end  return rhjpkns end     return DestinyLib
+local DestinyX = Instance.new("ScreenGui")
+local Loader = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Inside = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Color = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Credit = Instance.new("TextLabel")
+local Color_2 = Instance.new("UIGradient")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local Title = Instance.new("TextLabel")
+local Color_3 = Instance.new("UIGradient")
+local Version = Instance.new("TextLabel")
+local Color_4 = Instance.new("UIGradient")
+
+--Properties:
+
+DestinyX.Name = "DestinyX"
+DestinyX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DestinyX.DisplayOrder = 1000000000
+DestinyX.ResetOnSpawn = false
+
+Loader.Name = "Loader"
+Loader.Parent = DestinyX
+Loader.AnchorPoint = Vector2.new(0.5, 0.5)
+Loader.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Loader.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Loader.Position = UDim2.new(0.5, 0, 0.5, 0)
+Loader.Size = UDim2.new(0, 300, 0, 300)
+Loader.ZIndex = 0
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Loader
+
+Inside.Name = "Inside"
+Inside.Parent = Loader
+Inside.AnchorPoint = Vector2.new(0.5, 0.5)
+Inside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inside.BackgroundTransparency = 1.000
+Inside.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Inside.Position = UDim2.new(0.5, 0, 0.5, 0)
+Inside.Size = UDim2.new(0, 290, 0, 290)
+Inside.ZIndex = -1
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = Inside
+
+Color.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))}
+Color.Name = "Color"
+Color.Parent = Inside
+
+ImageLabel.Parent = Loader
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.333333343, 0, 0.100000009, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9377982334"
+ImageLabel.ImageTransparency = 1.000
+
+UICorner_3.CornerRadius = UDim.new(0, 150)
+UICorner_3.Parent = ImageLabel
+
+Credit.Name = "Credit"
+Credit.Parent = Loader
+Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credit.BackgroundTransparency = 1.000
+Credit.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Credit.BorderSizePixel = 0
+Credit.Position = UDim2.new(0.463999987, 0, 0.699999988, 0)
+Credit.Size = UDim2.new(0, 200, 0, 30)
+Credit.Font = Enum.Font.SourceSansLight
+Credit.Text = "Next version soon...."
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextSize = 15.000
+
+Color_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))}
+Color_2.Name = "Color"
+Color_2.Parent = Credit
+
+UIAspectRatioConstraint.Parent = Credit
+
+UITextSizeConstraint.Parent = Credit
+
+Title.Name = "Title"
+Title.Parent = Loader
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.127837896, 0, 0.465675682, 0)
+Title.Size = UDim2.new(0, 223, 0, 50)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Destinty X"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 30.000
+Title.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextWrapped = true
+
+Color_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))}
+Color_3.Name = "Color"
+Color_3.Parent = Title
+
+Version.Name = "Version"
+Version.Parent = Loader
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0.127837896, 0, 0.630450428, 0)
+Version.Size = UDim2.new(0, 223, 0, 30)
+Version.Font = Enum.Font.SourceSansItalic
+Version.Text = "Version 1.1.3b"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 35.000
+Version.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextWrapped = true
+
+Color_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 172, 94)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(199, 121, 208)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(75, 192, 200))}
+Color_4.Name = "Color"
+Color_4.Parent = Version
+
+-- Scripts:
+
+local function NZFH_fake_script() -- Credit.LocalScript 
+	local script = Instance.new('LocalScript', Credit)
+
+	while true do
+		wait()
+		script.Parent.TextTransparency = 1
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency - 0.1
+			script.Parent.Text = "Welcome, " .. game.Players.LocalPlayer.Name .. "!"
+		end
+		wait(1)
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency + 0.1
+		end
+		wait(0.5)
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency - 0.1
+			script.Parent.Text = "Created By: SimplyAwoken"
+		end
+		wait(1)
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency + 0.1
+		end
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency - 0.1
+			script.Parent.Text = "Sirius Studio's Production"
+		end
+		wait(0.5)
+		for i = 1,10 do
+			wait()
+			script.Parent.TextTransparency = script.Parent.TextTransparency + 0.1
+		end
+		wait(1)
+	end
+end
+coroutine.wrap(NZFH_fake_script)()
+local function VPDNZTB_fake_script() -- Loader.Animation 
+	local script = Instance.new('LocalScript', Loader)
+
+	--[[
+	Oh yeah this is skidded
+	--]]
+	local Credit				= script.Parent.Credit
+	local LOGOLOAD 				= script.Parent.ImageLabel
+	local LOGONAME 				= script.Parent.Title
+	local VERSIONNAME			= script.Parent.Version
+	local Background 			= script.Parent.Inside
+	local Main			 		= script.Parent
+	local TweenService 			= game:GetService("TweenService")
+	local Hue 					= script.Parent.Parent.Hue
+
+	-------------------------------------------------------------
+
+
+	-------------------------------------------------------------
+
+	-- Tween
+	local Main1 = TweenService:Create(
+		Main,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 0 
+		}
+	)
+	local Main2 = TweenService:Create(
+		Main,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 01
+		}
+	)
+	local LOGOLOAD1 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			ImageTransparency = 0 
+		}
+	)
+	local LOGOLOAD3 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 0 
+		}
+	)
+	local LOGONAME1 = TweenService:Create(
+		LOGONAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 0 
+		}
+	)
+	local VERSIONNAME1 = TweenService:Create(
+		VERSIONNAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 0 
+		}
+	)
+	local BACKGROUND3 = TweenService:Create(
+		Background,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 0 
+		}
+	)
+	local BACKGROUND4 = TweenService:Create(
+		Background,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 1 
+		}
+	)
+	local LOGOLOAD2 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			ImageTransparency = 1 
+		}
+	)
+	local LOGOLOAD4 = TweenService:Create(
+		LOGOLOAD,
+		TweenInfo.new(1),
+		{
+			BackgroundTransparency = 1
+		}
+	)
+	local LOGONAME2 = TweenService:Create(
+		LOGONAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 1 
+		}
+	)
+	local VERSIONNAME2 = TweenService:Create(
+		VERSIONNAME,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 1
+		}
+	)
+	local CREDIT1 = TweenService:Create(
+		Credit,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 0
+		}
+	)
+	local CREDIT2 = TweenService:Create(
+		Credit,
+		TweenInfo.new(1),
+		{
+			TextTransparency = 1 
+		}
+	)
+	local SOUND1 = TweenService:Create(
+		script.Parent.Sound,
+		TweenInfo.new(1),
+		{
+			Volume = 1 
+		}
+	)
+	local SOUND2 = TweenService:Create(
+		script.Parent.Sound,
+		TweenInfo.new(1),
+		{
+			Volume = 0
+		}
+	)
+	--------------------------------------------
+	script.Parent.Sound.Playing = true
+	SOUND1:Play()
+	Main:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "Out", "Bounce", 1, true)
+	task.wait(1)
+	LOGOLOAD1:Play()
+	LOGOLOAD3:Play()
+	LOGONAME1:Play()
+	VERSIONNAME1:Play()
+	CREDIT1:Play()
+	BACKGROUND3:Play()
+	Main1:Play()
+	local tween = TweenService:Create(
+		script.Parent,
+		TweenInfo.new(3),
+		{
+			Rotation = 360
+		}
+	)
+	tween:Play()
+	task.wait(1)
+	Background:TweenSize(UDim2.new(0, 310,0, 310), "Out", "Linear", 5 , false)
+	task.wait(5)
+	LOGOLOAD2:Play()
+	LOGOLOAD4:Play()
+	LOGONAME2:Play()
+	VERSIONNAME2:Play()
+	CREDIT2:Play()
+	BACKGROUND4:Play()
+	Main2:Play()
+	task.wait(2)
+	SOUND2:Play()
+	task.wait(1)
+	script.Parent.Sound:Destroy()
+	script.Parent.Parent.Main.Visible = true
+	script.Parent.Parent["Open/Close"].Visible = true
+	script.Parent.Parent.Main:TweenPosition(UDim2.new(0.357, 0,0.3, 0), "Out", "Quint", .5, true)
+
+	Hue.Visible = false
+	pcall(function()
+		if script.Parent.Parent:GetAttribute("User") ~= script.Parent.Parent.Parent.Parent.Name then 
+			script.Parent.Parent:Destroy()
+		end
+		script.Parent:Destroy()
+	end)
+end
+coroutine.wrap(VPDNZTB_fake_script)()
+
+wait(.4)
+
+DestinyX:Destroy()
+
+-- This User Interface Library is brought to you by Destiny Software.
+local Destiny = Instance.new("ScreenGui")
+Destiny.Name = "SimplyAwoken's Destiny gui"
+Destiny.Parent = game.CoreGui
+Destiny.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local NotificationHolder = Instance.new("ScreenGui")
+NotificationHolder.Name = "notiHolder"
+NotificationHolder.Parent = game.CoreGui
+NotificationHolder.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+local http = game:GetService("HttpService")
+
+local WhitelistedMouse = {Enum.UserInputType.MouseButton1, Enum.UserInputType.MouseButton2,Enum.UserInputType.MouseButton3}
+local BlacklistedKeys = {Enum.KeyCode.Unknown,Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,Enum.KeyCode.Up,Enum.KeyCode.Left,Enum.KeyCode.Down,Enum.KeyCode.Right,Enum.KeyCode.Slash,Enum.KeyCode.Tab,Enum.KeyCode.Backspace,Enum.KeyCode.Escape}
+
+local function CheckKey(tab, key)
+	for i, v in next, tab do
+		if v == key then
+			return true
+		end
+	end
+end
+
+
+
+local NotificationFrame = game:GetObjects("rbxassetid://6924028278")[1]
+NotificationFrame.ZIndex = 4
+NotificationFrame.Parent = NotificationHolder
+script = NotificationFrame.NotifScript
+local Notify = loadstring(NotificationFrame.NotifScript.Source)()
+script = oldScript
+
+local DestinyLib = {
+	Themes = {
+		Default = {
+			MainFrame = Color3.fromRGB(25, 25, 25),
+			TopBar = Color3.fromRGB(30, 30, 30),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(37, 37, 37),
+			TabToggled = Color3.fromRGB(43,43,43),
+			Button = Color3.fromRGB(30,30,30),
+			ButtonHold = Color3.fromRGB(31,31,31),
+			Toggle = Color3.fromRGB(30,30,30),
+			ToggleFrame = Color3.fromRGB(55,55,55),
+			ToggleToggled = Color3.fromRGB(22, 168, 76),
+			Slider = Color3.fromRGB(30,30,30),
+			SliderBar = Color3.fromRGB(25, 25, 25),
+			SliderInc = Color3.fromRGB(60, 60, 60),
+			Dropdown = Color3.fromRGB(30,30,30),
+			DropdownItem = Color3.fromRGB(30,30,30),
+			Textbox = Color3.fromRGB(30,30,30),
+			TextboxFrame = Color3.fromRGB(25, 25, 25),
+			Colorpicker = Color3.fromRGB(30,30,30),
+			Label = Color3.fromRGB(30,30,30),
+			Bind = Color3.fromRGB(30,30,30)
+		},
+		Discord = {
+			MainFrame = Color3.fromRGB(54,57,63),
+			TopBar = Color3.fromRGB(47,49,54),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(47,49,54),
+			TabToggled = Color3.fromRGB(54,57,63),
+			Button = Color3.fromRGB(88,101,242),
+			ButtonHold = Color3.fromRGB(71,82,196),
+			Toggle = Color3.fromRGB(47,49,54),
+			ToggleFrame = Color3.fromRGB(67,69,74),
+			ToggleToggled = Color3.fromRGB(22, 168, 76),
+			Slider = Color3.fromRGB(47,49,54),
+			SliderBar = Color3.fromRGB(42,44,49),
+			SliderInc = Color3.fromRGB(62,64,69),
+			Dropdown = Color3.fromRGB(47,49,54),
+			DropdownItem = Color3.fromRGB(47,49,54),
+			Textbox = Color3.fromRGB(47,49,54),
+			TextboxFrame = Color3.fromRGB(42,44,49),
+			Colorpicker = Color3.fromRGB(47,49,54),
+			Label = Color3.fromRGB(47,49,54),
+			Bind = Color3.fromRGB(47,49,54)
+		},
+		Blue = {
+			MainFrame = Color3.fromRGB(35, 35, 50),
+			TopBar = Color3.fromRGB(40, 40, 55),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(47, 47, 62),
+			TabToggled = Color3.fromRGB(53,53,68),
+			Button = Color3.fromRGB(40,40,55),
+			ButtonHold = Color3.fromRGB(41,41,56),
+			Toggle = Color3.fromRGB(40,40,55),
+			ToggleFrame = Color3.fromRGB(65,65,80),
+			ToggleToggled = Color3.fromRGB(64, 64, 120),
+			Slider = Color3.fromRGB(40,40,55),
+			SliderBar = Color3.fromRGB(35, 35, 50),
+			SliderInc = Color3.fromRGB(70, 70, 85),
+			Dropdown = Color3.fromRGB(40,40,55),
+			DropdownItem = Color3.fromRGB(40,40,55),
+			Textbox = Color3.fromRGB(40,40,55),
+			TextboxFrame = Color3.fromRGB(35, 35, 50),
+			Colorpicker = Color3.fromRGB(40,40,55),
+			Label = Color3.fromRGB(40,40,55),
+			Bind = Color3.fromRGB(40,40,55)
+		},
+		Red = {
+			MainFrame = Color3.fromRGB(25, 25, 25),
+			TopBar = Color3.fromRGB(55, 40, 40),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(62, 47, 47),
+			TabToggled = Color3.fromRGB(68,53,53),
+			Button = Color3.fromRGB(55,40,40),
+			ButtonHold = Color3.fromRGB(56,41,41),
+			Toggle = Color3.fromRGB(55,40,40),
+			ToggleFrame = Color3.fromRGB(80,65,65),
+			ToggleToggled = Color3.fromRGB(120, 64, 64),
+			Slider = Color3.fromRGB(55,40,40),
+			SliderBar = Color3.fromRGB(50, 35, 35),
+			SliderInc = Color3.fromRGB(85, 70, 70),
+			Dropdown = Color3.fromRGB(55,40,40),
+			DropdownItem = Color3.fromRGB(55,40,40),
+			Textbox = Color3.fromRGB(55,40,40),
+			TextboxFrame = Color3.fromRGB(50, 35, 35),
+			Colorpicker = Color3.fromRGB(55,40,40),
+			Label = Color3.fromRGB(55,40,40),
+			Bind = Color3.fromRGB(55,40,40)
+		},
+		BetterRed = {
+			MainFrame = Color3.fromRGB(0, 0, 0),
+			TopBar = Color3.fromRGB(30, 30, 30),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(0, 0, 0),
+			TabToggled = Color3.fromRGB(68,53,53),
+			Button = Color3.fromRGB(255, 0, 0),
+			ButtonHold = Color3.fromRGB(255, 0, 0),
+			Toggle = Color3.fromRGB(255, 0, 0),
+			ToggleFrame = Color3.fromRGB(80,65,65),
+			ToggleToggled = Color3.fromRGB(120, 64, 64),
+			Slider = Color3.fromRGB(34, 34, 34),
+			SliderBar = Color3.fromRGB(25, 25, 25),
+			SliderInc = Color3.fromRGB(60, 60, 60),
+			Dropdown = Color3.fromRGB(170, 0, 0),
+			DropdownItem = Color3.fromRGB(35, 35, 35),
+			Textbox = Color3.fromRGB(45, 45, 45),
+			TextboxFrame = Color3.fromRGB(0, 0, 0),
+			Colorpicker = Color3.fromRGB(35, 35, 35),
+			Label = Color3.fromRGB(35, 35, 35),
+			Bind = Color3.fromRGB(35, 35, 35)
+		},
+		Green = {
+			MainFrame = Color3.fromRGB(35, 50, 35),
+			TopBar = Color3.fromRGB(40, 55, 40),
+			TextColor =  Color3.fromRGB(255,255,255),
+			Menu = Color3.fromRGB(47, 62, 47),
+			TabToggled = Color3.fromRGB(53,68,53),
+			Button = Color3.fromRGB(40,55,40),
+			ButtonHold = Color3.fromRGB(41,56,41),
+			Toggle = Color3.fromRGB(40,55,40),
+			ToggleFrame = Color3.fromRGB(65,80,65),
+			ToggleToggled = Color3.fromRGB(64, 120, 64),
+			Slider = Color3.fromRGB(40,55,40),
+			SliderBar = Color3.fromRGB(35, 50, 35),
+			SliderInc = Color3.fromRGB(70, 85, 70),
+			Dropdown = Color3.fromRGB(40,55,40),
+			DropdownItem = Color3.fromRGB(40,55,40),
+			Textbox = Color3.fromRGB(40,55,40),
+			TextboxFrame = Color3.fromRGB(35, 50, 35),
+			Colorpicker = Color3.fromRGB(40,55,40),
+			Label = Color3.fromRGB(40,55,40),
+			Bind = Color3.fromRGB(40,55,40)
+		}
+	},
+	Settings = {
+		Theme = "Default",
+		ShowFriendsOnLaunch = true,
+		ShowMusicOnLaunch = false,
+		CloseBind = "RightControl"
+	},
+	Flags = {},
+	CurrentTab
+}
+
+
+
+local MainUI = game:GetObjects("rbxassetid://7835727566")[1]
+print("DestinyLib Loaded! By: SimplyAwoken#0694")
+local function MakeDraggable(topbarobject, object) 
+	pcall(function()
+		local dragging, dragInput, mousePos, framePos = false
+		topbarobject.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true
+				mousePos = input.Position
+				framePos = object.Position
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		topbarobject.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging then
+				local delta = input.Position - mousePos
+				object.Position  = UDim2.new(framePos.X.Scale, framePos.X.Offset + delta.X, framePos.Y.Scale, framePos.Y.Offset + delta.Y)
+			end
+		end)
+	end)
+end
+
+
+function Ripple(Object)
+	spawn(function()
+		local Circle = Instance.new("ImageLabel")
+		Circle.Parent = Object
+		Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Circle.BackgroundTransparency = 1.000
+		Circle.ZIndex = 10
+		Circle.Image = "rbxassetid://266543268"
+		Circle.ImageColor3 = Color3.fromRGB(210,210,210)
+		Circle.ImageTransparency = 0.8
+		Circle.Position = UDim2.new(0, Mouse.X - Circle.AbsolutePosition.X, 0, Mouse.Y - Circle.AbsolutePosition.Y)
+		local Size = Object.AbsoluteSize.X
+		TweenService:Create(Circle, TweenInfo.new(0.5), {Position = UDim2.fromScale(math.clamp(Mouse.X - Object.AbsolutePosition.X, 0, Object.AbsoluteSize.X)/Object.AbsoluteSize.X,Object,math.clamp(Mouse.Y - Object.AbsolutePosition.Y, 0, Object.AbsoluteSize.Y)/Object.AbsoluteSize.Y) - UDim2.fromOffset(Size/2,Size/2), ImageTransparency = 1, Size = UDim2.fromOffset(Size,Size)}):Play()
+		spawn(function()
+			wait(0.5)
+			Circle:Destroy()
+		end)
+	end)
+end
+
+function DestinyLib:Notification(title, desc)
+	Notify:New(title,desc)
+end    
+
+function DestinyLib:New(Config)
+	if not isfolder(Config.FolderToSave) then 
+		makefolder(Config.FolderToSave)
+	end
+
+	if not isfolder(Config.FolderToSave .. "/configs") then 
+		makefolder(Config.FolderToSave .. "/configs")
+	end
+
+	if not isfile(Config.FolderToSave .. "/settings.txt") then
+		local content = {}
+		for i,v in pairs(DestinyLib.Settings) do
+			content[i] = v
+		end
+		writefile(Config.FolderToSave .. "/settings.txt", tostring(http:JSONEncode(content)))
+	end    
+	DestinyLib.Settings = http:JSONDecode(readfile(Config.FolderToSave .. "/settings.txt"))
+
+	local closebindbinding = false
+	local fs = false
+	local tabcount = 0
+	local uitoggled = true
+	local tabmenutoggled = false
+	local TabPreset = game:GetObjects("rbxassetid://6958615840")[1]
+	local SectionPreset = game:GetObjects("rbxassetid://7121846230")[1]
+	local ContainerPreset = game:GetObjects("rbxassetid://7121886326")[1]
+	local MFrame = MainUI.MainFrame
+	MainUI.Parent = Destiny
+	MFrame.TopBar.TopFrameTitle.Text = Config.Name
+	MakeDraggable(MFrame.TopBar, MainUI) 
+	local oldScript = script
+
+	local MenuBtnPreset = game:GetObjects("rbxassetid://7037141226")[1]
+	local MusicBtn = MenuBtnPreset:Clone()
+	MusicBtn.Parent = MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame
+	MusicBtn.Position = UDim2.new(0,0,0,5)
+	MusicBtn.Text = "Music"
+	MusicBtn.MouseEnter:Connect(function() TweenService:Create(MusicBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() end)
+	MusicBtn.MouseLeave:Connect(function() TweenService:Create(MusicBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() end)
+	local SettingsBtn = MenuBtnPreset:Clone()
+	SettingsBtn.Parent = MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame
+	SettingsBtn.Position = UDim2.new(0,0,0,25)
+	SettingsBtn.Text = "Settings"
+	SettingsBtn.MouseEnter:Connect(function() TweenService:Create(SettingsBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() end)
+	SettingsBtn.MouseLeave:Connect(function() TweenService:Create(SettingsBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() end)
+
+
+	function MusicConstructor()
+		local abuttonhold = false
+		local playing = false
+		local MarketplaceService = game:GetService("MarketplaceService")
+		local MusicFrame, MusicPreset = game:GetObjects("rbxassetid://7296373622")[1], game:GetObjects("rbxassetid://7296615234")[1]
+		MusicFrame.Parent = Destiny
+		MusicFrame.ZIndex = 5
+		MusicFrame.Visible = DestinyLib.Settings.ShowMusicOnLaunch
+		MusicFrame.Frame.Title.Text = "Not Playing"
+		MusicFrame.Frame.Progress.ProgressFrame.Size = UDim2.new(0,0,1,0)
+		MusicFrame.Frame.AddBtn.AutoButtonColor = false
+
+		MakeDraggable(MusicFrame.Frame.TopBar,MusicFrame)
+		MusicFrame.Frame.TopBar.CloseBtn.MouseButton1Click:Connect(function()
+			MusicFrame.Visible = false
+		end)
+		MusicFrame.Frame.TopBar.CloseBtn.MouseEnter:Connect(function() TweenService:Create(MusicFrame.Frame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+		MusicFrame.Frame.TopBar.CloseBtn.MouseLeave:Connect(function() TweenService:Create(MusicFrame.Frame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+		MusicBtn.MouseButton1Click:Connect(function()
+			MusicFrame.Visible = not MusicFrame.Visible
+			MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = false 
+		end)
+
+		local Sound = Instance.new("Sound")
+		Sound.Name = "Sound"
+		Sound.Parent = MusicFrame
+		Sound.Volume = 3
+		Sound:Stop()
+
+		local Sounds = {}
+		if not isfile(Config.FolderToSave .. "/music.txt") then writefile(Config.FolderToSave .. "/music.txt", tostring(http:JSONEncode({}))) end
+		Sounds = http:JSONDecode(readfile(Config.FolderToSave .. "/music.txt"))
+
+		function Save()
+			local content = {}
+			for i,v in pairs(Sounds) do
+				content[i] = v
+			end
+			writefile(Config.FolderToSave .. "/music.txt", tostring(http:JSONEncode(content)))
+		end    
+
+		local function PlaySong(id, title)
+			Sound:Stop()
+			playing = true
+			Sound.SoundId = "rbxassetid://" .. id
+			Sound:Resume()
+			MusicFrame.Frame.Play.Image = "http://www.roblox.com/asset/?id=6026663719"
+			MusicFrame.Frame.Title.Text = title
+		end    
+
+		local function RefreshList(list)
+			for i,v in next, MusicFrame.Frame.MusicList.Scroll:GetChildren() do
+				if v.Name == "Btn" then
+					v:Destroy()
+				end    
+			end
+			for i,v in next, list do
+				local success, info = pcall(MarketplaceService.GetProductInfo, MarketplaceService, v)
+				if success and info.AssetTypeId == 3 then
+					local Btn = MusicPreset:Clone()
+					Btn.Parent = MusicFrame.Frame.MusicList.Scroll
+					Btn.Title.Text = info.Name
+
+					Btn.MouseButton1Click:Connect(function()
+						PlaySong(v, info.Name)
+					end)
+
+					Btn.Delete.MouseButton1Click:Connect(function()
+						for g,c in next, Sounds do
+							if c == v then
+								table.remove(Sounds, g)
+							end    
+						end    
+						Save()
+						Btn:Destroy()   
+					end)
+				end
+			end    
+		end 
+
+		MusicFrame.Frame.Play.MouseButton1Click:Connect(function()
+			playing = not playing
+			if playing then Sound:Pause() else Sound:Resume() end
+			MusicFrame.Frame.Play.Image = playing and "http://www.roblox.com/asset/?id=6026663699" or "http://www.roblox.com/asset/?id=6026663719"
+		end)
+
+		MusicFrame.Frame.AddBtn.MouseButton1Click:Connect(function()
+			local id = MusicFrame.Frame.AddSong.Text
+			if not table.find(Sounds, id) then
+				table.insert(Sounds, id)
+				Save()
+				RefreshList(Sounds)
+			end    
+		end)
+
+		MusicFrame.Frame.AddBtn.MouseEnter:Connect(function()
+			abuttonhold = true
+		end)
+
+		MusicFrame.Frame.AddBtn.MouseLeave:Connect(function()
+			abuttonhold = false
+		end)
+
+		RefreshList(Sounds)
+
+		game:GetService("RunService").RenderStepped:Connect(function()
+			local time = math.floor(Sound.TimePosition)
+			local timesecs = time % 60
+			local timemins = math.floor(time / 60)
+			if string.len(timesecs) < 2 then timesecs = "0" .. timesecs end
+			if string.len(timemins) < 2 then timemins = "0" .. timemins end
+			local timemax = math.floor(Sound.TimeLength)
+			local timemaxsecs = timemax % 60
+			local timemaxmins = math.floor(timemax / 60)
+			if string.len(timemaxsecs) < 2 then timemaxsecs = "0" .. timemaxsecs end
+			if string.len(timemaxmins) < 2 then timemaxmins = "0" .. timemaxmins end
+			MusicFrame.Frame.Timer1.Text = timemins .. ":" .. timesecs
+			MusicFrame.Frame.Timer2.Text = timemaxmins .. ":" .. timemaxsecs
+			MusicFrame.Frame.Progress.ProgressFrame.Size = UDim2.new(Sound.TimePosition / Sound.TimeLength,0,1,0)
+		end)
+
+
+		spawn(function()
+			while wait() do
+				MusicFrame.Frame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
+				MusicFrame.Frame.TopBar.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+				MusicFrame.Frame.TopBar.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+				MusicFrame.Frame.MusicList.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+				MusicFrame.Frame.AddBtn.BackgroundColor3 = abuttonhold and DestinyLib.Themes[DestinyLib.Settings.Theme].ButtonHold or DestinyLib.Themes[DestinyLib.Settings.Theme].Button
+				MusicFrame.Frame.Progress.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Slider
+				MusicFrame.Frame.Progress.ProgressFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].SliderInc
+				MusicFrame.Frame.AddSong.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Textbox
+			end
+		end)
+	end  
+
+	function SettingsConstructor()
+		local Settings, SettingsFrame, TabPreset, ContainerPreset, TogglePreset, BindPreset, DropdownPreset, OptionPreset = {}, game:GetObjects("rbxassetid://7167491516")[1], game:GetObjects("rbxassetid://7177524915")[1], game:GetObjects("rbxassetid://7203599409")[1], game:GetObjects("rbxassetid://7208643984")[1], game:GetObjects("rbxassetid://7219277948")[1], game:GetObjects("rbxassetid://7435055269")[1], game:GetObjects("rbxassetid://7435032496")[1]
+		local fs = true
+		local SFrame = SettingsFrame.Main
+		SettingsFrame.Parent = MFrame
+		SFrame.TopBar.CloseBtn.MouseEnter:Connect(function() TweenService:Create(SFrame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+		SFrame.TopBar.CloseBtn.MouseLeave:Connect(function() TweenService:Create(SFrame.TopBar.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+		SettingsBtn.MouseButton1Click:Connect(function()
+			SettingsFrame.Visible = not SettingsFrame.Visible
+			MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = false 
+		end)
+		SFrame.TopBar.CloseBtn.MouseButton1Click:Connect(function()
+			SettingsFrame.Visible = false
+		end)
+
+		function SaveSettings()
+			local content = {}
+			for i,v in pairs(DestinyLib.Settings) do
+				content[i] = v
+			end
+			writefile(Config.FolderToSave .. "/settings.txt", tostring(http:JSONEncode(content)))
+		end    
+
+
+		spawn(function()
+			while wait() do
+				SFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
+				SFrame.TopBar.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+				SFrame.TopBar.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+				SFrame.TopBar.TopFrameTitle.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+				SFrame.TabHolder.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+
+			end
+		end)
+
+		function Settings:Tab(text)
+			local Tab = TabPreset:Clone()
+			local Container = ContainerPreset:Clone()
+			Tab.Parent = SFrame.TabHolder
+			Tab.Text = text
+			Tab.Size = UDim2.new(0,Tab.TextBounds.X,1,0)
+			Container.Parent = SFrame.ContainerFolder
+			Container.Visible = false
+
+			if fs then
+				Tab.TextTransparency = 0
+				Container.Visible = true
+				fs = false
+			end    
+
+			Tab.MouseButton1Click:Connect(function()
+				for i,v in next, SFrame.TabHolder:GetChildren() do
+					if v.Name == "Tab" then
+						v.TextTransparency = 0.4
+					end    
+				end      
+				for i,v in next, SFrame.ContainerFolder:GetChildren() do
+					if v.Name == "Container" then
+						v.Visible = false
+					end    
+				end      
+				Tab.TextTransparency = 0      
+				Container.Visible = true
+			end)
+			local TabHold = {}
+			function TabHold:ToggleSetting(title, desc, def, path)
+				local value = DestinyLib.Settings[path] or def
+				local Toggle = TogglePreset:Clone()
+				Toggle.Parent = Container
+				Toggle.Title.Text = title
+				Toggle.Desc.Text = desc
+
+				local function Tween(val)
+					TweenService:Create(Toggle.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency= val and 0 or 1}):Play()
+					TweenService:Create(Toggle.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size= val and UDim2.new(1,-2,1,-2) or UDim2.new(1,-6,1,-6)}):Play()
+				end    
+
+				local function SetValue(val)
+					Tween(val)
+					DestinyLib.Settings[path] = val
+					value = val
+					SaveSettings()
+				end    
+
+				Tween(value)
+
+				Toggle.MouseButton1Click:Connect(function()
+					SetValue(not value)     
+				end)
+
+				spawn(function()
+					while wait() do
+						Toggle.ToggleFrame.ToggleToggled.BackgroundColor3 = value and DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleToggled or DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
+						Toggle.ToggleFrame.BackgroundColor3 = value and DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleToggled or DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleFrame
+						Toggle.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+			end
+			function TabHold:BindSetting(title, desc, def, path)
+				local value = DestinyLib.Settings[path] or def
+				local Bind = BindPreset:Clone()
+				Bind.Parent = Container
+				Bind.Title.Text = title
+				Bind.Desc.Text = desc
+
+				function SetValue(val)
+					closebindbinding = false
+					value = val or value
+					value = value.Name or value
+					Bind.BText.Text = value
+					DestinyLib.Settings[path] = value
+					SaveSettings()
+				end    
+				SetValue(value)
+
+				Bind.InputEnded:Connect(function(Input)
+					if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if closebindbinding then return end
+						closebindbinding = true
+						Bind.BText.Text = "..."
+					end
+				end)
+
+				UserInputService.InputBegan:Connect(function(Input)
+					if UserInputService:GetFocusedTextBox() then return end
+					if closebindbinding then
+						local Key
+						pcall(function()
+							if not CheckKey(BlacklistedKeys, Input.KeyCode) then
+								Key = Input.KeyCode
+							end
+						end)
+						pcall(function()
+							if CheckKey(WhitelistedMouse, Input.UserInputType) and not Key then
+								Key = Input.UserInputType
+							end
+						end)
+						Key = Key or value
+						SetValue(Key)
+					end
+				end)
+
+				spawn(function()
+					while wait() do
+						Bind.Desc.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						Bind.BText.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						Bind.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+			end    
+			function TabHold:Dropdown(title, desc, list, def, path)
+				local opened = false
+				local value = DestinyLib.Settings[path] or def
+				local Dropdown = DropdownPreset:Clone()
+				Dropdown.Parent = Container
+				Dropdown.Title.Text = title
+				Dropdown.Desc.Text = desc
+				Dropdown.Main.Current.Text = value
+
+				function Toggle()
+					Dropdown.Main.Holder.Visible = opened
+					Dropdown.Main.Holder.Size = opened and UDim2.new(1,0,0,Dropdown.Main.Holder.UIListLayout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
+					if opened then
+						if (Dropdown.Main.Holder.UIListLayout.AbsoluteContentSize.Y + Container.UIListLayout.AbsoluteContentSize.Y) > 190 then
+							Container.CanvasSize = UDim2.new(0,0,0,Dropdown.Main.Holder.UIListLayout.AbsoluteContentSize.Y + Container.UIListLayout.AbsoluteContentSize.Y)
+						end    
+					else
+						Container.CanvasSize = UDim2.new(0,0,0,Container.UIListLayout.AbsoluteContentSize.Y) 
+					end
+					TweenService:Create(Dropdown.Main.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = opened and 180 or 0}):Play()
+				end   
+
+				Dropdown.InputEnded:Connect(function(Input)
+					if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+						opened = not opened
+						Toggle()
+					end
+				end)
+
+				local function AddOptions(opts)
+					for _,option in pairs(opts) do
+						local Option = OptionPreset:Clone()
+						Option.Parent = Dropdown.Main.Holder
+						Option.Text = option
+
+						Option.MouseButton1Click:Connect(function()
+							value = option
+							DestinyLib.Settings[path] = value
+							Dropdown.Main.Current.Text = value
+							SaveSettings()
+						end)
+
+						spawn(function()
+							while wait() do
+								Option.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor       
+							end
+						end)
+					end   
+				end    
+
+				spawn(function()
+					while wait() do
+						Dropdown.Main.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+						Dropdown.Main.Holder.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+					end
+				end)
+				AddOptions(list)
+			end
+			return TabHold
+		end   
+
+		local general = Settings:Tab("General")
+		general:ToggleSetting("Show Music On Launch", "Shows the music menu when you load Destiny X", true, "ShowMusicOnLaunch")
+		general:BindSetting("Close Bind", "Hides/Shows the main window when pressed.", Enum.KeyCode.RightControl, "CloseBind")
+
+		local appearance = Settings:Tab("Appearance")
+		appearance:Dropdown("Theme", "The look of the user interface", {"Default", "Discord", "Red", "Green", "Blue", "BetterRed"}, "Default", "Theme")
+
+	end 
+	MusicConstructor()
+	SettingsConstructor()
+
+	local function OpenTabMenu()
+		TweenService:Create(MFrame.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(0,0,0,0)}):Play() 
+	end   
+
+	local function CloseTabMenu()
+		TweenService:Create(MFrame.TabMenu,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Position = UDim2.new(-0.37, -8, 0, 0)}):Play() 
+	end 
+
+	MFrame.TopBar.TabListBtn.MouseButton1Click:Connect(function()
+		OpenTabMenu()
+	end)
+
+	MFrame.TabMenu.Menu.Top.MenuCloseBtn.MouseButton1Click:Connect(function()
+		CloseTabMenu()
+	end)
+
+	MFrame.TopBar.ButtonHolder.SearchBtn.MouseButton1Click:Connect(function()
+		MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.Visible = not MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.Visible
+		MFrame.TopBar.TopFrameTitle.Visible = not MFrame.TopBar.TopFrameTitle.Visible
+	end)
+
+	MFrame.TopBar.ButtonHolder.CloseBtn.MouseEnter:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+	MFrame.TopBar.ButtonHolder.CloseBtn.MouseLeave:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.CloseBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+	MFrame.TopBar.ButtonHolder.SearchBtn.MouseEnter:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.SearchBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+	MFrame.TopBar.ButtonHolder.SearchBtn.MouseLeave:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.SearchBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+	MFrame.TopBar.ButtonHolder.MenuBtn.MouseEnter:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.MenuBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+	MFrame.TopBar.ButtonHolder.MenuBtn.MouseLeave:Connect(function() TweenService:Create(MFrame.TopBar.ButtonHolder.MenuBtn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+	MFrame.TopBar.TabListBtn.MouseEnter:Connect(function() TweenService:Create(MFrame.TopBar.TabListBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0}):Play() end)
+	MFrame.TopBar.TabListBtn.MouseLeave:Connect(function() TweenService:Create(MFrame.TopBar.TabListBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency = 0.4}):Play() end)
+	MFrame.TopBar.ButtonHolder.MenuBtn.MouseButton1Click:Connect(function() MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible = not MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame.Visible end)
+
+	MFrame.TopBar.ButtonHolder.CloseBtn.MouseButton1Click:Connect(function()
+		uitoggled = not uitoggled
+		MainUI.Visible = uitoggled
+	end)
+
+
+	function SearchConstructor()
+		function StitchElements()
+			local elms = {}
+			for i,v in next, DestinyLib.CurrentTab:GetDescendants() do
+				if string.find(v.Name, "element") then
+					table.insert(elms, v)        
+				end
+			end   
+			return elms
+		end    
+
+		MFrame.TopBar.ButtonHolder.SearchBtn.TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+			for i,v in pairs(StitchElements()) do
+				if string.len(MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.Text) >= 1 then
+					if string.find(string.sub(v.Name:lower(),0,-8), MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.Text:lower()) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end 
+				else
+					v.Visible = true                 
+				end
+			end    		
+		end)
+	end    
+
+	SearchConstructor()
+
+
+	UserInputService.InputBegan:Connect(function(Input)
+		if (Input.KeyCode.Name == DestinyLib.Settings.CloseBind or Input.UserInputType.Name == DestinyLib.Settings.CloseBind) and not closebindbinding then
+			uitoggled = not uitoggled
+			MainUI.Visible = uitoggled
+		end
+	end)
+
+	spawn(function()
+		while wait() do
+			MFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
+			MFrame.TopBar.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+			MFrame.TopBar.ButtonHolder.CloseBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.ButtonHolder.MenuBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.ButtonHolder.SearchBtn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.TabListBtn.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.TopFrameTitle.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TabMenu.Menu.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Menu
+			MFrame.TabMenu.Menu.Top.MenuCloseBtn.ImageLabel.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].MainFrame
+			MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.ButtonHolder.SearchBtn.TextBox.PlaceholderColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+			MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame.Frame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TopBar
+		end
+	end)
+
+	function DestinyLib:LoadCfg(cfg)
+		local content = http:JSONDecode(cfg)
+		table.foreach(content, function(a,b)
+			if DestinyLib.Flags[a] then
+				spawn(function() DestinyLib.Flags[a]:Set(b) end)
+			else
+				warn("cfg loader - could not find", a ,b )
+			end
+		end)
+	end
+
+	function DestinyLib:SaveCfg(name)
+		local content = {}
+		for i,v in pairs(DestinyLib.Flags) do
+			content[i] = v.Value
+		end
+		writefile(Config.FolderToSave .. "/configs/" .. name .. ".txt", tostring(http:JSONEncode(content)))
+	end
+
+
+	local TabHolder = {}
+	function TabHolder:Tab(text)
+		local Tab = TabPreset:Clone()
+		Tab.AutoButtonColor = false
+		Tab.Parent = MFrame.TabMenu.Menu.Holder
+		Tab.Text =  text
+		Tab.TextSize = 14
+
+
+		local Container =  ContainerPreset:Clone()
+		Container.Parent = MFrame.ContainerFolder
+		Container.Visible = false
+
+		if fs == false then
+			fs = true
+			Container.Visible = true
+			Tab.UIPadding.PaddingLeft = UDim.new(0,10)
+			Tab.TextTransparency = 0
+			Tab.BackgroundTransparency = 0  
+			DestinyLib.CurrentTab = Container  
+		end    
+
+		spawn(function()
+			while wait() do
+				Tab.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+				Tab.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TabToggled
+				Container.CanvasSize = UDim2.new(0,0,0,Container.UIListLayout.AbsoluteContentSize.Y + 26)
+			end
+		end)
+
+
+
+		Tab.MouseButton1Click:Connect(function()
+			for i,v in next, MFrame.TabMenu.Menu.Holder:GetChildren() do
+				if v:IsA("TextButton") then
+					TweenService:Create(v,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() 
+					TweenService:Create(v,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 1}):Play() 
+					TweenService:Create(v.UIPadding,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{PaddingLeft = UDim.new(0,5)}):Play() 
+				end    
+				TweenService:Create(Tab,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() 
+				TweenService:Create(Tab,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{BackgroundTransparency = 0}):Play() 
+				TweenService:Create(Tab.UIPadding,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{PaddingLeft = UDim.new(0,10)}):Play() 
+			end   
+			for i,v in next, MFrame.ContainerFolder:GetChildren() do
+				if v.Name == "Container" then
+					v.Visible = false
+				end    
+				Container.Visible = true
+			end
+			tabtoggledname = Tab.Name
+			CloseTabMenu()
+		end)
+
+
+		local SectionHold = {}
+		function SectionHold:Section(text)
+			local Section = SectionPreset:Clone()
+			Section.Parent = Container
+			Section.SectionTitle.Text = text
+
+			spawn(function()
+				while wait() do
+					Section.SectionTitle.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					Section.Size = UDim2.new(0.9,0,0,Section.UIListLayout.AbsoluteContentSize.Y)
+				end
+			end)
+			local ItemHold = {}
+			function ItemHold:Button(text,callback)
+				local Holding = false
+				local Button = game:GetObjects("rbxassetid://6937142338")[1]
+				Button.Parent = Section
+				Button.Name = text .. "element"
+				Button.ButtonText.Text = text
+				Button.ClipsDescendants = true
+
+				Button.MouseButton1Click:Connect(function()
+					callback()
+					Ripple(Button)
+				end)
+				Button.MouseEnter:Connect(function()
+					Holding = true
+				end)
+				Button.MouseLeave:Connect(function()
+					Holding = false
+				end)
+
+				spawn(function()
+					while wait() do
+						Button.BackgroundColor3 = Holding and DestinyLib.Themes[DestinyLib.Settings.Theme].ButtonHold or DestinyLib.Themes[DestinyLib.Settings.Theme].Button
+						Button.ButtonText.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+			end    
+			function ItemHold:Toggle(text,def,flag,callback)
+				local Toggle,ToggleMain = {Value = false}, game:GetObjects("rbxassetid://6963155498")[1]
+				ToggleMain.Parent = Section
+				ToggleMain.ToggleText.Text = text
+				ToggleMain.Name = text .. "element"
+
+				function Toggle:Set(value)
+					Toggle.Value = value
+					TweenService:Create(ToggleMain.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{ImageTransparency= Toggle.Value and 0 or 1}):Play()
+					TweenService:Create(ToggleMain.ToggleFrame.ToggleToggled.ToggleIco,TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size= Toggle.Value and UDim2.new(1,-2,1,-2) or UDim2.new(1,-6,1,-6)}):Play()
+					return callback(Toggle.Value)
+				end
+
+				ToggleMain.MouseButton1Click:Connect(function()
+					Toggle.Value = not Toggle.Value
+					Toggle:Set(Toggle.Value)           
+				end)
+
+				spawn(function()
+					while wait() do
+						ToggleMain.ToggleFrame.ToggleToggled.BackgroundColor3 = Toggle.Value and DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleToggled or DestinyLib.Themes[DestinyLib.Settings.Theme].Toggle
+						ToggleMain.ToggleFrame.BackgroundColor3 = Toggle.Value and DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleToggled or DestinyLib.Themes[DestinyLib.Settings.Theme].ToggleFrame
+						ToggleMain.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Toggle
+						ToggleMain.ToggleText.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				Toggle:Set(def)
+				DestinyLib.Flags[flag] = Toggle
+				return Toggle
+			end    
+			function ItemHold:Slider(text,min,max,start,inc,flag,callback)
+				local Slider,SliderMain = {Value = start}, game:GetObjects("rbxassetid://6967573727")[1]
+				SliderMain.Parent = Section
+				SliderMain.SliderText.Text = text
+				SliderMain.Name = text .. "element"
+				local dragging = false
+
+				local function move(Input)
+					local XSize = math.clamp((Input.Position.X - SliderMain.SliderFrame.AbsolutePosition.X) / SliderMain.SliderFrame.AbsoluteSize.X, 0, 1)
+					local Increment = inc and (max / ((max - min) / (inc * 4))) or (max >= 50 and max / ((max - min) / 4)) or (max >= 25 and max / ((max - min) / 2)) or (max / (max - min))
+					local SizeRounded = UDim2.new((math.round(XSize * ((max / Increment) * 4)) / ((max / Increment) * 4)), 0, 1, 0) 
+					TweenService:Create(SliderMain.SliderFrame.SliderCurrentFrame,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = SizeRounded}):Play() 
+					local Val = math.round((((SizeRounded.X.Scale * max) / max) * (max - min) + min) * 20) / 20
+					SliderMain.SliderVal.Text = tostring(Val)
+					Slider.Value = Val
+					callback(Slider.Value)
+				end
+				SliderMain.SliderFrame.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = true end end)
+				SliderMain.SliderFrame.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = false end end)
+				game:GetService("UserInputService").InputChanged:Connect(function(input) if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then move(input) end end)
+
+				function Slider:Set(val)
+					local a = tostring(val and (val / max) * (max - min) + min) or 0
+					SliderMain.SliderVal.Text = tostring(a)
+					SliderMain.SliderFrame.SliderCurrentFrame.Size = UDim2.new((val or 0) / max, 0, 1, 0)
+					Slider.Value = val
+					return callback(Slider.Value)
+				end	
+
+				spawn(function()
+					while wait() do
+						SliderMain.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Slider
+						SliderMain.SliderFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].SliderBar
+						SliderMain.SliderFrame.SliderCurrentFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].SliderInc
+						SliderMain.SliderText.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						SliderMain.SliderVal.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+
+				Slider:Set(start)
+				DestinyLib.Flags[flag] = Slider
+				return Slider
+			end    
+			function ItemHold:Dropdown(text,list,def,flag,callback)
+				local Dropdown,DropMain,OptionPreset = {Value = nil, Toggled = false, Options = list}, game:GetObjects("rbxassetid://7027964359")[1], game:GetObjects("rbxassetid://7021432326")[1]
+				DropMain.Parent = Section
+				DropMain.Btn.Title.Text = text
+				DropMain.Name = text .. "element"
+
+
+				local function ToggleDrop()
+					Dropdown.Toggled = not Dropdown.Toggled
+					DropMain.Holder.Size = Dropdown.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
+					TweenService:Create(DropMain,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = Dropdown.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)}):Play() 
+					TweenService:Create(DropMain.Btn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = Dropdown.Toggled and 180 or 0}):Play() 
+					DropMain.Holder.Visible = Dropdown.Toggled
+				end  
+
+				local function AddOptions(opts)
+					for _,option in pairs(opts) do
+						local Option = OptionPreset:Clone()
+						Option.Parent = DropMain.Holder
+						Option.ItemText.Text = option
+						Option.ClipsDescendants = true
+
+						Option.MouseButton1Click:Connect(function()
+							Dropdown.Value = option
+							DropMain.Btn.Title.Text = text .. " - " .. option
+							Ripple(Option)
+							return callback(Dropdown.Value)
+						end)
+
+						spawn(function()
+							while wait() do
+								Option.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].DropdownItem
+								DropMain.Btn.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+							end
+						end)
+					end   
+				end    
+
+				function Dropdown:Refresh(opts,del)
+					if del then
+						for _,v in pairs(DropMain.Holder:GetChildren()) do
+							if v:IsA"TextButton" then
+								v:Destroy()
+								DropMain.Holder.Size = Dropdown.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
+								DropMain.Size = Dropdown.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)
+							end
+						end    
+					end    
+					AddOptions(opts)
+				end    
+
+
+				DropMain.Btn.MouseButton1Click:Connect(function()
+					ToggleDrop()
+				end)
+
+				function Dropdown:Set(val)
+					Dropdown.Value = val
+					DropMain.Btn.Title.Text = text .. " - " .. val
+					return callback(Dropdown.Value)
+				end
+
+				spawn(function()
+					while wait() do
+						DropMain.Btn.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Dropdown
+						DropMain.Btn.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						DropMain.Btn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				Dropdown:Refresh(list,false)
+				Dropdown:Set(def)
+				DestinyLib.Flags[flag] = Dropdown
+				return Dropdown
+			end   
+			function ItemHold:MultiDropdown(text,list,def,flag,callback)
+				local Dropdown,DropMain,OptionPreset = {Value = {}, Toggled = false, Options = list}, game:GetObjects("rbxassetid://7027964359")[1], game:GetObjects("rbxassetid://7021432326")[1]
+				DropMain.Parent = Section
+				DropMain.Btn.Title.Text = text
+				DropMain.Name = text .. "element"
+
+
+				local function ToggleDrop()
+					Dropdown.Toggled = not Dropdown.Toggled
+					DropMain.Holder.Size = Dropdown.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
+					TweenService:Create(DropMain,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = Dropdown.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)}):Play() 
+					TweenService:Create(DropMain.Btn.Ico,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Rotation = Dropdown.Toggled and 180 or 0}):Play() 
+					DropMain.Holder.Visible = Dropdown.Toggled
+				end  
+
+				local function AddOptions(opts)
+					for _,option in pairs(opts) do
+						local Option = OptionPreset:Clone()
+						Option.Parent = DropMain.Holder
+						Option.ItemText.Text = option
+						Option.ClipsDescendants = true
+
+						Option.MouseButton1Click:Connect(function()
+							if table.find(Dropdown.Value, option) then				
+								table.remove(Dropdown.Value, table.find(Dropdown.Value, option))
+								DropMain.Btn.Title.Text = text .. " - " .. table.concat(Dropdown.Value, ", ")
+								callback(Dropdown.Value)
+							else
+								table.insert(Dropdown.Value, option)
+								DropMain.Btn.Title.Text = text .. " - " .. table.concat(Dropdown.Value, ", ")
+								callback(Dropdown.Value)
+							end
+							Ripple(Option)
+						end)
+
+						spawn(function()
+							while wait() do
+								Option.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].DropdownItem
+								DropMain.Btn.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+							end
+						end)
+					end   
+				end    
+
+				function Dropdown:Refresh(opts,del)
+					if del then
+						for _,v in pairs(DropMain.Holder:GetChildren()) do
+							if v:IsA"TextButton" then
+								v:Destroy()
+								DropMain.Holder.Size = Dropdown.Toggled and UDim2.new(1,0,0,6+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,0)
+								DropMain.Size = Dropdown.Toggled and UDim2.new(1,0,0,38+DropMain.Holder.Layout.AbsoluteContentSize.Y) or UDim2.new(1,0,0,32)
+							end
+						end    
+					end    
+					AddOptions(opts)
+				end    
+
+
+				DropMain.Btn.MouseButton1Click:Connect(function()
+					ToggleDrop()
+				end)
+
+				function Dropdown:Set(val)
+					Dropdown.Value = val
+					DropMain.Btn.Title.Text = text .. " - " .. table.concat(Dropdown.Value, ", ")
+					return callback(Dropdown.Value)
+				end
+
+				spawn(function()
+					while wait() do
+						DropMain.Btn.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Dropdown
+						DropMain.Btn.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						DropMain.Btn.Ico.ImageColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				Dropdown:Refresh(list,false)
+				Dropdown:Set(def)
+				DestinyLib.Flags[flag] = Dropdown
+				return Dropdown
+			end    
+			function ItemHold:Colorpicker(text,preset,flag,callback)
+				local ColorH, ColorS, ColorV = 1, 1, 1
+				local ColorPicker, ColorPreset, DragPreset = {Value = preset, Toggled = false}, game:GetObjects("rbxassetid://7329998014")[1]
+				ColorPreset.Hue.Visible, ColorPreset.Color.Visible = ColorPicker.Toggled, ColorPicker.Toggled
+				ColorPreset.Parent = Section
+				ColorPreset.Btn.Colorpicker.Text = text
+				ColorPreset.Name = text .. "element"
+				ColorPreset.Btn.Box.BackgroundColor3 = preset
+				ColorPreset.Hue.HueGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+				local Color = ColorPreset.Color
+				local Hue = ColorPreset.Hue
+				local HueSelection = ColorPreset.Hue.HueSelection
+				local ColorSelection = ColorPreset.Color.ColorSelection
+
+				function UpdateColorPicker()
+					ColorPreset.Btn.Box.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+					Color.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+					pcall(callback, ColorPreset.Btn.Box.BackgroundColor3)
+				end
+
+				ColorPreset.Btn.MouseButton1Click:Connect(function()
+					ColorPicker.Toggled = not ColorPicker.Toggled
+					TweenService:Create(ColorPreset,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{Size = ColorPicker.Toggled and UDim2.new(1,0,0,120) or UDim2.new(1,0,0,32)}):Play() 
+					ColorPreset.Hue.Visible, ColorPreset.Color.Visible = ColorPicker.Toggled, ColorPicker.Toggled
+				end)
+
+				ColorH = 1 - (math.clamp(HueSelection.AbsolutePosition.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) / Hue.AbsoluteSize.Y)
+				ColorS = (math.clamp(ColorSelection.AbsolutePosition.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) / Color.AbsoluteSize.X)
+				ColorV = 1 - (math.clamp(ColorSelection.AbsolutePosition.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) / Color.AbsoluteSize.Y)
+
+				ColorPreset.Btn.Box.BackgroundColor3 = preset
+				Color.BackgroundColor3 = preset
+				pcall(callback, ColorPreset.Btn.Box.BackgroundColor3)
+
+				Color.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if ColorInput then
+							ColorInput:Disconnect()
+						end
+						ColorInput = RunService.RenderStepped:Connect(function()
+							local ColorX = (math.clamp(Mouse.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) / Color.AbsoluteSize.X)
+							local ColorY = (math.clamp(Mouse.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) / Color.AbsoluteSize.Y)
+							ColorSelection.Position = UDim2.new(ColorX, 0, ColorY, 0)
+							ColorS = ColorX
+							ColorV = 1 - ColorY
+							UpdateColorPicker()
+						end)
+					end
+				end)
+
+				Color.InputEnded:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if ColorInput then
+							ColorInput:Disconnect()
+						end
+					end
+				end)
+
+				Hue.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if HueInput then
+							HueInput:Disconnect()
+						end
+
+						HueInput = RunService.RenderStepped:Connect(function()
+							local HueY = (math.clamp(Mouse.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) / Hue.AbsoluteSize.Y)
+
+							HueSelection.Position = UDim2.new(0.48, 0, HueY, 0)
+							ColorH = 1 - HueY
+
+							UpdateColorPicker(true)
+						end)
+					end
+				end)
+
+				Hue.InputEnded:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if HueInput then
+							HueInput:Disconnect()
+						end
+					end
+				end)
+
+				spawn(function()
+					while wait() do
+						ColorPreset.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Colorpicker
+						ColorPreset.Btn.Colorpicker.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				return ColorPicker
+			end
+			function ItemHold:Label(text)
+				local Label, LabelFrame = {}, game:GetObjects("rbxassetid://7032552322")[1]
+				LabelFrame.Parent = Section
+				LabelFrame.Title.Text = text
+				LabelFrame.Name = text .. "element"
+
+				function Label:Set(tochange)
+					LabelFrame.Title.Text = tochange
+					LabelFrame.Name = text .. "element"
+				end    
+
+
+				spawn(function()
+					while wait() do
+						LabelFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Label
+						LabelFrame.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				return Label
+			end
+			function ItemHold:Textbox(text,disappear,callback)
+				local Textbox, TextboxFrame = {}, game:GetObjects("rbxassetid://7147292392")[1]
+				TextboxFrame.Parent = Section
+				TextboxFrame.Title.Text = text
+				TextboxFrame.Name = text .. "element"
+
+				TextboxFrame.Box.Changed:Connect(function()
+					TextboxFrame.Box.Size = UDim2.new(0,TextboxFrame.Box.TextBounds.X + 16,0,22)
+				end)
+				TextboxFrame.Box.PlaceholderText = "                  "
+
+				TextboxFrame.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseButton1 then
+						TextboxFrame.Box:CaptureFocus()
+					end
+				end)
+
+
+				TextboxFrame.Box.FocusLost:Connect(function()
+					local txt = TextboxFrame.Box.Text
+					if disappear then
+						TextboxFrame.Box.Text = ""
+					end  
+					return callback(txt)
+				end)
+
+				UserInputService.InputBegan:Connect(function(input)
+					if input.KeyCode == Enum.KeyCode.Escape and TextboxFrame.Box:IsFocused() then
+						TextboxFrame.Box:ReleaseFocus()
+					end
+				end)
+
+				spawn(function()
+					while wait() do
+						TextboxFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Textbox
+						TextboxFrame.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						TextboxFrame.Box.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextboxFrame
+						TextboxFrame.Box.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+				return Textbox
+			end    
+			function ItemHold:Bind(text,preset,holdmode,flag,callback)
+				local Bind, BindFrame = {Value, Binding = false, Holding = false}, game:GetObjects("rbxassetid://7126874744")[1]
+				BindFrame.Parent = Section
+				BindFrame.Title.Text = text
+				BindFrame.Name = text .. "element"
+
+
+
+				BindFrame.InputEnded:Connect(function(Input)
+					if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+						if Bind.Binding then return end
+						Bind.Binding = true
+						BindFrame.BText.Text = "..."
+					end
+				end)
+
+				UserInputService.InputBegan:Connect(function(Input)
+					if UserInputService:GetFocusedTextBox() then return end
+					if (Input.KeyCode.Name == Bind.Value or Input.UserInputType.Name == Bind.Value) and not Bind.Binding then
+						if holdmode then
+							Holding = true
+							callback(Holding)
+						else
+							callback()
+						end
+					elseif Bind.Binding then
+						local Key
+						pcall(function()
+							if not CheckKey(BlacklistedKeys, Input.KeyCode) then
+								Key = Input.KeyCode
+							end
+						end)
+						pcall(function()
+							if CheckKey(WhitelistedMouse, Input.UserInputType) and not Key then
+								Key = Input.UserInputType
+							end
+						end)
+						Key = Key or Bind.Value
+						Bind:Set(Key)
+					end
+				end)
+
+				UserInputService.InputEnded:Connect(function(Input)
+					if Input.KeyCode.Name == Bind.Value or Input.UserInputType.Name == Bind.Value then
+						if holdmode and Holding then
+							Holding = false
+							callback(Holding)
+						end
+					end
+				end)
+
+				function Bind:Set(key)
+					self.Binding = false
+					self.Value = key or self.Value
+					self.Value = self.Value.Name or self.Value
+					BindFrame.BText.Text = self.Value
+				end
+
+				spawn(function()
+					while wait() do
+						BindFrame.BackgroundColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].Bind
+						BindFrame.Title.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+						BindFrame.BText.TextColor3 = DestinyLib.Themes[DestinyLib.Settings.Theme].TextColor
+					end
+				end)
+
+				Bind:Set(preset)
+				DestinyLib.Flags[flag] = Bind
+				return Bind
+			end    
+			return ItemHold
+		end    
+		return SectionHold
+	end 
+	return TabHolder
+end    
+return DestinyLib
