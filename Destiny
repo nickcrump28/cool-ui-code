@@ -345,7 +345,9 @@ local function VPDNZTB_fake_script() -- Loader.Animation
 end
 coroutine.wrap(VPDNZTB_fake_script)()
 
-wait(5)
+wait(1)
+
+DestinyX:Destroy()
 
 -- This User Interface Library is brought to you by Destiny Software.
 local Destiny = Instance.new("ScreenGui")
